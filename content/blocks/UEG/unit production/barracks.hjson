@@ -1,0 +1,28 @@
+name: "Barracks"
+description: "Trains a great variety of soldiers with different roles. The first and main UEG unit production building.                  Prove to yourself that you have the strenght, and the courage, to be free.. JOIN THE ARMED FORCES! "
+type: UnitFactory
+health: 1500
+size: 4
+consumes: {
+power: 2
+}
+plans: [
+  {
+    unit: soldier
+    requirements: [
+      beryllium/15
+      personnel-black/1
+      copper/10
+      
+      
+    ]
+    time: 680
+  }
+]
+category: units
+requirements: [
+  copper/150
+  tungsten/30
+  silicon/50
+]
+research: outpost
