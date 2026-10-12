@@ -1,0 +1,7 @@
+name: "Orange Brine"
+type: Floor
+isLiquid: true
+variants: 1
+solid: false
+placeableOn: false
+itemDrop: none
