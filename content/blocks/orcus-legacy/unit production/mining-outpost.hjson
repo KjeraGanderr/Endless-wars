@@ -1,0 +1,25 @@
+name: "Mining Outpost"
+description: "Constructs mining units,requieres cyanogen to operate."
+type: UnitFactory
+health: 200
+size: 2
+consumes: {
+liquid: {
+  liquid: cyanogen
+  amount: 0.017
+}
+}
+plans: [
+  {
+    unit: grom
+    requirements: [
+      beryllium/5
+    ]
+    time: 1545
+  }
+]
+category: units
+requirements: [
+  cordium/20
+]
+research: core-obelisk
