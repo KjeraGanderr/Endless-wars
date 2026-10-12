@@ -1,0 +1,7 @@
+name: "Cyan Ice Brine"
+type: Floor
+isLiquid: false
+variants: 2
+solid: true
+placeableOn: true
+itemDrop: none
