@@ -1,0 +1,7 @@
+name: "Dark Rock Hole"
+type: Floor
+isLiquid: false
+variants: 2
+solid: true 
+placeableOn: false
+itemDrop: none
