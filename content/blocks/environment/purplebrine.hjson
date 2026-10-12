@@ -4,4 +4,3 @@ isLiquid: true
 variants: 1
 solid: false
 placeableOn: false
-itemDrop: none
