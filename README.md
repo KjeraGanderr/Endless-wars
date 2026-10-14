@@ -1,4 +1,4 @@
-# Prelude Of a New War
+# Endless Wars 
 
 Submerge yourself into the deep world of **Endless Wars**!
 
