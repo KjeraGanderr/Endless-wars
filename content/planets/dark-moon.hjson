@@ -1,15 +1,31 @@
-
-{
-  type: Planet
-  name: "1 - Dark Moon"
-  parent: sun
-  radius: 1.0
-  sectorSize: 3
-  accessible: true
-  visible: true
-atmosphereColor: "665078"
-iconColor: "8C6AA8"
-landCloudColor: "665078"
-atmosphereRadIn: 0.015
-atmosphereRadOut: 0.22
+generator: "PlanetGenerator"
+solarSystem: sun
+parent: sun
+orbitRadius: 83.37
+name: "Dark Moon"
+clearSectorOnLose: false
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+hasAtmosphere: true
+visible: true
+updateLighting: false
+defaultCore: core-bastion
+sectorSize: 1
+radius: 0.7
+bloom: true
+startSector: 16
+iconColor: 8C6AA8
+accessible: true
+alwaysUnlocked: true
+campaignRuleDefaults: {
+	fog: true
+	showSpawns: true
+}
+research: {
+	planet: dark-moon
+	root: true
+	requiresUnlock: false
+	name: "Dark Moon"
 }
