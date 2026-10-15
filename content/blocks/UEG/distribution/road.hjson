@@ -1,0 +1,13 @@
+type: StackConveyor
+name: Road
+description: "A paved logistics route used for transporting supplies."
+size: 1
+health: 70
+speed: 0.5
+itemCapacity: 5
+requirements: [
+  beryllium/1
+]
+category: distribution
+research: outpost
+  
