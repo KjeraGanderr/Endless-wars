@@ -1,3 +1,4 @@
+
 type: GenericCrafter
 name: Industrial Carbonizer
 description: Mechanically processes mineral feedstock into solid fuel.
@@ -9,7 +10,7 @@ outputItem: coal/2
 consumes: {
   items: [
     sand/4
- }
+  ]
 }
 requirements: [
   beryllium/30
@@ -18,4 +19,3 @@ requirements: [
 ]
 category: crafting
 research: pneumatic-bore
-}
