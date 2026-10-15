@@ -7,6 +7,7 @@ powerProduction: 2.5
 itemDuration: 120
 itemCapacity: 15
 consumes: {
+items: {
   item: coal/1
 }
 requirements: [
