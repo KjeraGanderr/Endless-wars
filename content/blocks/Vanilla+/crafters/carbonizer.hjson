@@ -6,7 +6,7 @@ size: 2
 hasPower: true
 craftTime: 120
 itemCapacity: 20
-outputItem: coal/2
+outputItem:coal/2
 consumes: {
   items: [
     sand/4
