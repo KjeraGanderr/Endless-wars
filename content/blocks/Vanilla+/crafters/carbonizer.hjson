@@ -9,6 +9,8 @@ outputItem: coal/2
 consumes: {
   items: [
     sand/4
+ }
+}
 requirements: [
   beryllium/30
   lead/10
