@@ -1,4 +1,3 @@
-
 type: ConsumeGenerator
 name: Fossil Generator
 description: Burns solid carbon fuel to generate electricity.
@@ -8,7 +7,7 @@ powerProduction: 2.5
 itemDuration: 120
 itemCapacity: 15
 consumes: {
-  item: coal/1
+  item: coal
 }
 requirements: [
   beryllium/60
