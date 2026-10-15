@@ -1,0 +1,18 @@
+type: ConsumeGenerator
+name: Fossil Generator
+description: Burns solid carbon fuel to generate electricity.
+size: 2
+hasPower: true
+powerProduction: 2.5
+itemDuration: 120
+itemCapacity: 15
+consumes: {
+  item: coal/1
+}
+requirements: [
+  beryllium/60
+  lead/40
+  graphite/25
+]
+category: power
+research: industrial-carbonizer
