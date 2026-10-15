@@ -7,7 +7,7 @@ powerProduction: 2.5
 itemDuration: 120
 itemCapacity: 15
 consumes: {
-  item: coal/1
+  item: coal / 1
 }
 requirements: [
   beryllium/60
