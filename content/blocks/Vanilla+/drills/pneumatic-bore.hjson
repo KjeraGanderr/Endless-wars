@@ -1,0 +1,37 @@
+name: Pneumatic Bore
+description: Harvests materials from walls without needing power. Good for environments where power may not be inmediately available but lacks the range to mine roughly distributed walls.
+type: BeamDrill
+health: 300
+fogRadius: 3
+size: 2
+category: production
+destructible: true
+breakable: true
+buildVisibility: shown
+research: {
+  parent: dark-moon
+  requirements: [
+    beryllium/100
+  ]
+}
+tier: 2
+range: 1
+drillTime: 160
+   }
+}   
+drawer: {
+        type: DrawMulti,
+        drawers: [
+      {
+        type: DrawDefault
+        },
+     {
+ type: drawSpinSprite
+ suffix: -rotator
+  color: 9cb0e6
+    }
+  ]
+}
+requirements: [
+  beryllium/32
+]
