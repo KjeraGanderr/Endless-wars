@@ -1,5 +1,6 @@
 name: Pneumatic Bore
 description: Harvests materials from walls without needing power. Good for environments where power may not be inmediately available but lacks the range to mine roughly distributed walls.
+details: I really had to get creative to say it "fucking sucks" for spikey walls but profesionally
 type: BeamDrill
 health: 300
 fogRadius: 3
@@ -14,7 +15,7 @@ research: {
     beryllium/100
   ]
 }
-tier: 2
+tier: 3
 range: 1
 drillTime: 160
 drawer: {
