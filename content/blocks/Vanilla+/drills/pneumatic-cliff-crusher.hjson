@@ -1,0 +1,15 @@
+type: WallCrafter
+name: Pneumatic Cliff Crusher
+description: Mechanically extracts resources from adjacent walls without electricity.
+size: 2
+hasPower: false
+drillTime: 180
+rotateSpeed: 3
+attribute: sand
+output: sand
+requirements: [
+  beryllium/30
+  graphite/5
+]
+category: production
+research: mechanical-drill
