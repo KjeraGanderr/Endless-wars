@@ -6,3 +6,5 @@ solid: false
 placeableOn: false
 supportsOverlay: true
 overlayAlpha: 0.25
+cacheLayer: slag
+liquidDrop: orange-brine
