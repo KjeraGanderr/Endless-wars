@@ -7,4 +7,4 @@ placeableOn: false
 supportsOverlay: true
 overlayAlpha: 0.35
 cacheLayer: cryofluid
-liquidDrop: cyanbrine
+liquidDrop: cyan-brine
