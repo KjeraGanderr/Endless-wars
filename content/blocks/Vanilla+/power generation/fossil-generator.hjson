@@ -1,7 +1,8 @@
 type: ConsumeGenerator
 name: Fossil Generator
 description: Burns solid carbon fuel to generate electricity.
-size: 2
+details: 
+size: 3
 hasPower: true
 powerProduction: 2.5
 itemDuration: 120
