@@ -1,9 +1,9 @@
 name: "Forward Base Ops"
-planet: tantros
+planet: theater-ops
 description: "An UEG base of operations. Once destroyed, the sector is lost."
 type: CoreBlock
 health: 6000
-size: 5
+size: 6
 itemCapacity: 6000
 category: effect
 unitCapModifier: 16
