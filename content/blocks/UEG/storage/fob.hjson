@@ -12,9 +12,9 @@ buildVisibility: shown
 alwaysUnlocked: true
 research: {
 root: false
-name: "tantros"
+name: "Forward Base Of Operations"
 requiresUnlock: false
-planet: tantros
+planet: theater-ops
 }
 requirements: [
     tungsten/500
