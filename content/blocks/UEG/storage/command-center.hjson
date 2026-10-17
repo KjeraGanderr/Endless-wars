@@ -1,5 +1,5 @@
 name: "Command Center"
-planet: tantros
+planet: theater-ops
 description: "An UEG base of operations. Once destroyed, the sector is lost."
 type: CoreBlock
 health: 12000
@@ -7,7 +7,7 @@ size: 7
 itemCapacity: 12000
 category: effect
 unitCapModifier: 32
-unitType: alpha
+unitType: engineering-hovertank
 buildVisibility: shown
 alwaysUnlocked: false
 research: {
