@@ -1,5 +1,5 @@
 name: "Outpost"
-planet: tantros
+planet: theater-ops
 description: "An UEG base of operations. Once destroyed, the sector is lost."
 type: CoreBlock
 health: 3000
