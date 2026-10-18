@@ -1,4 +1,4 @@
-type: hovef
+type: hover
 health: 1200
 description: "An advanced engineering hovercraft equipped with a 3D-printing construction system. Trades heavy armor for superior mobility across difficult terrain."
 controller: BuilderAI
