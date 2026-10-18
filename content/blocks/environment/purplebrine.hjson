@@ -4,7 +4,4 @@ isLiquid: true
 variants: 1
 solid: false
 placeableOn: false
-supportsOverlay: true
-overlayAlpha: 0.4
-cacheLayer: arkycite
 liquidDrop: purple-brine
