@@ -1,8 +1,9 @@
-type: naval
+type: hovef
 health: 1200
 description: "An advanced engineering hovercraft equipped with a 3D-printing construction system. Trades heavy armor for superior mobility across difficult terrain."
 controller: BuilderAI
 hovering: true
+canDrown: false
 isEnemy: false
 flying: false
 buildSpeed: 1.6
@@ -17,6 +18,6 @@ mineTier: 3
 armor: 6
 hitSize: 18
 size: 3.5
-itemCapacity: 100
+itemCapacity: 160
 outlineColor: "37383d"
 
