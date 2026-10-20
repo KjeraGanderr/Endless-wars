@@ -9,7 +9,28 @@ hitSize: 38
 rotateSpeed: 1.5
 drag: 0.1
 accel: 0.08
-range: 160
+weapons: [
+  {
+    name: "ocylyptus-cannon"
+    x: 12
+    y: 6
+    reload: 36
+    rotate: true
+    mirror: true
+    shootY: 5
+    recoil: 2
+  }
+  {
+    name: "ocylyptus-flame"
+    x: 14
+    y: -5
+    reload: 45
+    rotate: true
+    mirror: false
+    shootY: 4
+    recoil: 1
+  }
+]
 legCount: 60
 legLength: 9
 legBaseOffset: 8
