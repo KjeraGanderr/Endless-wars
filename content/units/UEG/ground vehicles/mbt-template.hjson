@@ -1,0 +1,15 @@
+type: tank
+name: UEG MBT Template
+description: "Reusable baseline for UEG main battle tank variants."
+health: 900
+armor: 14
+speed: 0.62
+accel: 0.035
+drag: 0.12
+rotateSpeed: 1.25
+hitSize: 17
+itemCapacity: 30
+outlineColor: "37383d"
+isEnemy: false
+flying: false
+research: dagger
