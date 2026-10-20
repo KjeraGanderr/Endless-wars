@@ -16,7 +16,7 @@ weapons: [
     y: 0
     mirror: false
     damage: 75
-    reload: 90
+    reload: 60
     shootY: 8
     recoil: 1
     range: 230
