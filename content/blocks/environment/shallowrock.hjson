@@ -2,6 +2,5 @@ name: "Shallow Rock"
 type: Floor
 isLiquid: false
 variants: 4
-solid: true 
+solid: false 
 placeableOn: true
-walkableOn: true
