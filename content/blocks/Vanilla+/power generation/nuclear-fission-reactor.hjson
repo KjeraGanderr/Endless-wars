@@ -7,6 +7,7 @@ powerProduction: 9
 itemDuration: 180
 hasPower: true
 hasItems: true
+fuelItem: uranium
 itemCapacity: 10
 liquidCapacity: 30
 consumes: {
