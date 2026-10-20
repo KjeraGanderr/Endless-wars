@@ -11,11 +11,8 @@ explosionDamage: 3200
 consumes: {
   power: 4.0
   liquid: deuterium/0.25
-  update: true
   liquid2: tritium/0.45
-  update: true
   liquid3: cryofluid/0.7
-  update: true
 }
 requirements: [
   { item: copper, amount: 650 }
