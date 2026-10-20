@@ -54,7 +54,7 @@ weapons: [
       height: 7
       frontColor: ffaa55ff 
       backColor: ff5500ff 
-      trailEffect: fireball
+      trailEffect: fire
       trailChance: 0.4
       pierce: true 
       pierceBuilding: true
