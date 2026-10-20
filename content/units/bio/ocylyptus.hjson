@@ -46,16 +46,14 @@ weapons: [
     shootY: 4
     recoil: 1
     bullet: {
-  
-    bullet: {
       type: BasicBulletType
       speed: 3.8      
       damage: 11       
       lifetime: 22    
       width: 7
       height: 7
-      frontColor: ffaa55ff  // Color del núcleo 
-      backColor: ff5500ff   // Color del borde
+      frontColor: ffaa55ff 
+      backColor: ff5500ff 
       trailEffect: fireball
       trailChance: 0.4
       pierce: true 
