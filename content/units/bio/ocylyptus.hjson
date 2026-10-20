@@ -25,16 +25,13 @@ weapons: [
   speed: 8
   damage: 42
   lifetime: 11.5
-
   width: 8
   height: 12
-
   trailLength: 12
   trailWidth: 2.5
   trailColor: "b7d7ff"
-
   hitSize: 4
-  collidesAir: true
+  collidesAir: false
   collidesGround: true
 }
   }
@@ -48,13 +45,14 @@ weapons: [
     shootY: 4
     recoil: 1
     bullet: {
-  type: FlameBulletType
-  damage: 18
-  speed: 3
-  lifetime: 16
-  collidesAir: false
-  collidesGround: true
-  hitSize: 5
+  type: ContinuousFlameBulletType
+  damage: 30          
+      length: 128         
+      width: 4            
+      pierce: true        
+      status: burning
+      statusDuration: 180
+      flareColor: e189f5ff
 }
   }
 ]
