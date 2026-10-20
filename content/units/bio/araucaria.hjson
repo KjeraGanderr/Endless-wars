@@ -20,6 +20,27 @@ weapons: [
     shootY: 8
     recoil: 1
     range: 230
+bullet: {
+  type: BasicBulletType
+  speed: 8
+  damage: 90
+  lifetime: 40
+
+  width: 16
+  height: 16
+
+  frontColor: "baff70"
+  backColor: "55cc44"
+  hitColor: "aaff66"
+  trailColor: "66ff55"
+
+  trailLength: 8
+  trailWidth: 3
+
+  hitSize: 8
+  collidesAir: true
+  collidesGround: true
+}
     parts: [
       {
         type: RegionPart
