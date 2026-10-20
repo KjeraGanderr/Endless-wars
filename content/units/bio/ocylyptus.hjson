@@ -41,18 +41,29 @@ weapons: [
     y: -5
     reload: 20
     rotate: true
+    innacuracy: 12
     mirror: false
     shootY: 4
     recoil: 1
     bullet: {
-  type: ContinuousFlameBulletType
-  damage: 30          
-      length: 128         
-      width: 4            
-      pierce: true        
+  
+    bullet: {
+      type: BasicBulletType
+      speed: 3.8      
+      damage: 11       
+      lifetime: 22    
+      width: 7
+      height: 7
+      frontColor: ffaa55ff  // Color del núcleo 
+      backColor: ff5500ff   // Color del borde
+      trailEffect: fireball
+      trailChance: 0.4
+      pierce: true 
+      pierceBuilding: true
+      hitEffect: fireHit
+      despawnEffect: none
       status: burning
-      statusDuration: 180
-      flareColor: e189f5ff
+      statusDuration: 120 
 }
   }
 ]
