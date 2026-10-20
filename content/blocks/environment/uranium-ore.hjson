@@ -1,0 +1,8 @@
+type: OreBlock
+name: Uranium Ore
+description: "A radioactive mineral deposit that can be mined by the Deep Drill."
+itemDrop: uranium
+variants: 3
+oreDefault: false
+oreScale: 24
+oreThreshold: 0.88
