@@ -10,14 +10,11 @@ explosionRadius: 36
 explosionDamage: 3200
 consumes: {
   power: 4.0
-  liquid: deuterium
-  amount: 0.24
+  liquid: deuterium/0.25
   update: true
-  liquid2: tritium
-  amount2: 0.24
+  liquid2: tritium/0.45
   update: true
-  liquid3: cryofluid
-  amount3: 0.25
+  liquid3: cryofluid/0.7
   update: true
 }
 requirements: [
