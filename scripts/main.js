@@ -1,2 +1,3 @@
 UnitTypes.collaris.legCount = 10
-UnitTypes.collaris.legGroup = 5
+UnitTypes.latum.hidden = false
+UnitTypes.renale.hidden = false
