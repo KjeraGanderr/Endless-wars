@@ -1,0 +1,6 @@
+type: Item
+name: Uranium
+description: "A dense radioactive metal used as fuel for nuclear fission reactors."
+color: "6f9d48"
+cost: 1.2
+alwaysUnlocked: false
