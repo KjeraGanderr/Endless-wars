@@ -4,3 +4,4 @@ isLiquid: false
 variants: 2
 solid: true 
 placeableOn: true
+walkableOn: true
