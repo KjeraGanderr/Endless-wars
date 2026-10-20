@@ -18,6 +18,7 @@ weapons: [
     rotate: true
     mirror: true
     shootY: 5
+    range: 150
     recoil: 2
   }
   {
@@ -27,6 +28,7 @@ weapons: [
     reload: 45
     rotate: true
     mirror: false
+    range: 60
     shootY: 4
     recoil: 1
   }
