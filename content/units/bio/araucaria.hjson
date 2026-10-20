@@ -9,6 +9,42 @@ hitSize: 34
 rotateSpeed: 2.2
 accel: 0.04
 drag: 0.02
-range: 200
+weapons: [
+  {
+    name: "araucaria-acid"
+    x: 0
+    y: 0
+    mirror: false
+    damage: 75
+    reload: 90
+    shootY: 8
+    recoil: 1
+    range: 230
+    parts: [
+      {
+        type: RegionPart
+        suffix: "-blade"
+        mirror: true
+        progress: warmup
+        moveX: 2
+        moveY: 0
+        moves: [
+          {
+            progress: 0
+            x: 0
+            y: 0
+            rotation: 0
+          }
+          {
+            progress: 1
+            x: 2
+            y: 0
+            rotation: 12
+          }
+        ]
+      }
+    ]
+  }
+]
 flying: true
 researchCostMultiplier: 1.5
