@@ -13,9 +13,7 @@ consumes: {
   items: [
     { item: uranium, amount: 1 }
   ]
-  liquid: water
-  amount: 0.2
-  update: true
+  liquid: water/0.13
 }
 requirements: [
   { item: copper, amount: 220 }
