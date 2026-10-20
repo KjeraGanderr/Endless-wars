@@ -1,0 +1,10 @@
+type: Liquid
+name: Deuterium
+description: "A heavy hydrogen isotope processed for use in fusion reactors."
+color: "6cc9e8"
+gas: true
+temperature: 0.15
+viscosity: 0.35
+heatCapacity: 0.2
+flammability: 0
+explosiveness: 0

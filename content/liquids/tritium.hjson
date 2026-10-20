@@ -1,0 +1,10 @@
+type: Liquid
+name: Tritium
+description: "A scarce hydrogen isotope used as high-energy fusion fuel."
+color: "c58cff"
+gas: true
+temperature: 0.2
+viscosity: 0.4
+heatCapacity: 0.2
+flammability: 0
+explosiveness: 0
