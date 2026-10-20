@@ -2,6 +2,5 @@ name: "Purple Ice Brine"
 type: Floor
 isLiquid: false
 variants: 2
-solid: true
+solid: false
 placeableOn: true
-walkableOn: true
