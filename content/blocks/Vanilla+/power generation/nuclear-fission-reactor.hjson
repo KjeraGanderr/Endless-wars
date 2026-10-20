@@ -1,0 +1,30 @@
+type: NuclearReactor
+name: Nuclear Fission Reactor
+description: "A compact fission plant that consumes uranium and water to generate a steady supply of power."
+size: 3
+health: 600
+powerProduction: 9
+itemDuration: 180
+hasPower: true
+hasItems: true
+itemCapacity: 10
+liquidCapacity: 30
+consumes: {
+  items: [
+    { item: uranium, amount: 1 }
+  ]
+  liquid: water
+  amount: 0.2
+  update: true
+}
+requirements: [
+  { item: copper, amount: 220 }
+  { item: lead, amount: 180 }
+  { item: silicon, amount: 120 }
+  { item: titanium, amount: 100 }
+  { item: thorium, amount: 80 }
+]
+category: power
+research: {
+  parent: thorium-reactor
+}

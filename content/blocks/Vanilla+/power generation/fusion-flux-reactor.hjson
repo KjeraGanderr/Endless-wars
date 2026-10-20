@@ -1,0 +1,35 @@
+type: ImpactReactor
+name: Fusion Flux Reactor
+description: "A Vanilla+ fusion plant. Requires an electrical supply to sustain the reaction, deuterium and tritium fuel, and continuous water cooling."
+size: 5
+health: 1800
+powerProduction: 15
+itemCapacity: 0
+liquidCapacity: 120
+explosionRadius: 28
+explosionDamage: 1800
+consumes: {
+  power: 2.0
+  liquid: deuterium
+  amount: 0.12
+  update: true
+  liquid2: tritium
+  amount2: 0.12
+  update: true
+  liquid3: water
+  amount3: 0.15
+  update: true
+}
+requirements: [
+  { item: copper, amount: 500 }
+  { item: lead, amount: 450 }
+  { item: silicon, amount: 400 }
+  { item: titanium, amount: 300 }
+  { item: plastanium, amount: 200 }
+  { item: surge-alloy, amount: 120 }
+  { item: phase-fabric, amount: 100 }
+]
+category: power
+research: {
+  parent: impact-reactor
+}

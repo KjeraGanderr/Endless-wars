@@ -1,0 +1,38 @@
+type: ImpactReactor
+name: Nuclear Fusion Reactor
+description: "A UEG high-output fusion plant. Requires a substantial electrical supply, deuterium and tritium, and advanced cryofluid cooling."
+size: 5
+health: 2400
+powerProduction: 30
+itemCapacity: 0
+liquidCapacity: 180
+explosionRadius: 36
+explosionDamage: 3200
+consumes: {
+  power: 4.0
+  liquid: deuterium
+  amount: 0.24
+  update: true
+  liquid2: tritium
+  amount2: 0.24
+  update: true
+  liquid3: cryofluid
+  amount3: 0.25
+  update: true
+}
+requirements: [
+  { item: copper, amount: 650 }
+  { item: lead, amount: 500 }
+  { item: silicon, amount: 500 }
+  { item: titanium, amount: 450 }
+  { item: plastanium, amount: 350 }
+  { item: surge-alloy, amount: 250 }
+  { item: phase-fabric, amount: 220 }
+  { item: thorium, amount: 200 }
+  { item: carbide, amount: 150 }
+  { item: oxide, amount: 120 }
+]
+category: power
+research: {
+  parent: fusion-flux-reactor
+}
