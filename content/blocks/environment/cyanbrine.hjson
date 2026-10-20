@@ -5,3 +5,4 @@ variants: 1
 solid: false
 placeableOn: false
 liquidDrop: cyan-brine
+drownTime: 4.5
