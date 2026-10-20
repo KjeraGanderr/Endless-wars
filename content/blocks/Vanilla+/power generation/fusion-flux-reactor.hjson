@@ -10,15 +10,11 @@ explosionRadius: 28
 explosionDamage: 1800
 consumes: {
   power: 2.0
-  liquid: deuterium
-  amount: 0.12
-  update: true
-  liquid2: tritium
-  amount2: 0.12
-  update: true
-  liquid3: water
-  amount3: 0.15
-  update: true
+  liquids: [
+deuterium/0.12
+tritium/0.12
+water/0.15
+]
 }
 requirements: [
   { item: copper, amount: 500 }
