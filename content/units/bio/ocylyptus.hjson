@@ -20,17 +20,42 @@ weapons: [
     shootY: 5
     range: 150
     recoil: 2
+   bullet: {
+  type: BasicBulletType
+  speed: 8
+  damage: 42
+  lifetime: 11.5
+
+  width: 8
+  height: 12
+
+  trailLength: 12
+  trailWidth: 2.5
+  trailColor: "b7d7ff"
+
+  hitSize: 4
+  collidesAir: true
+  collidesGround: true
+}
   }
   {
     name: "ocylyptus-flame"
     x: 14
     y: -5
-    reload: 45
+    reload: 20
     rotate: true
     mirror: false
-    range: 60
     shootY: 4
     recoil: 1
+    bullet: {
+  type: FlameBulletType
+  damage: 18
+  speed: 3
+  lifetime: 16
+  collidesAir: false
+  collidesGround: true
+  hitSize: 5
+}
   }
 ]
 legCount: 60
