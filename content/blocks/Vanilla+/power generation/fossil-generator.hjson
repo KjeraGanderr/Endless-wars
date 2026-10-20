@@ -1,7 +1,6 @@
 type: ConsumeGenerator
-name: Fossil Generator
-description: Burns solid carbon fuel to generate electricity.
-details: 
+name: "Fossil Generator"
+description: "Burns solid carbon fuel to generate electricity."
 size: 3
 hasPower: true
 powerProduction: 2.5
