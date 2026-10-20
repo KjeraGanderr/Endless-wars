@@ -10,9 +10,11 @@ explosionRadius: 36
 explosionDamage: 3200
 consumes: {
   power: 4.0
-  liquid: deuterium/0.25
-  liquid2: tritium/0.45
-  liquid3: cryofluid/0.7
+  liquids: [ 
+deuterium/0.25
+tritium/0.45
+cryofluid/0.7
+]
 }
 requirements: [
   { item: copper, amount: 650 }
