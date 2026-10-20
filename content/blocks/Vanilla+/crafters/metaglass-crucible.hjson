@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Metaglass Crucible
+description: "An advanced glass furnace that produces metaglass using sand, lead and silicon."
+size: 3
+health: 540
+craftTime: 30
+hasPower: true
+hasItems: true
+itemCapacity: 30
+consumes: {
+  power: 1.05
+  items: [
+    { item: sand, amount: 2 }
+    { item: lead, amount: 1 }
+    { item: silicon, amount: 1 }
+  ]
+}
+outputItem: {
+  item: metaglass
+  amount: 2
+}
+requirements: [
+  { item: copper, amount: 180 }
+  { item: lead, amount: 150 }
+  { item: graphite, amount: 100 }
+  { item: silicon, amount: 90 }
+  { item: titanium, amount: 60 }
+]
+category: crafting
+research: {
+  parent: kiln
+}

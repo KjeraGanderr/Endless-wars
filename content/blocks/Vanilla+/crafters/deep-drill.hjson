@@ -1,0 +1,25 @@
+type: Drill
+name: Deep Drill
+description: "A heavy industrial drill designed to extract uranium from deep ore deposits. Requires substantial power and advanced materials."
+size: 3
+health: 720
+tier: 5
+drillTime: 240
+itemCapacity: 30
+hasPower: true
+consumes: {
+  power: 4.0
+}
+requirements: [
+  { item: copper, amount: 250 }
+  { item: lead, amount: 220 }
+  { item: silicon, amount: 180 }
+  { item: titanium, amount: 150 }
+  { item: plastanium, amount: 100 }
+  { item: tungsten, amount: 120 }
+  { item: carbide, amount: 80 }
+]
+category: production
+research: {
+  parent: laser-drill
+}
