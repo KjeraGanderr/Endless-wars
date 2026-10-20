@@ -1,0 +1,15 @@
+type: tank
+name: UEG MBT Variant B
+description: "A protection-focused MBT configuration that sacrifices mobility."
+health: 1080
+armor: 18
+speed: 0.50
+accel: 0.028
+drag: 0.13
+rotateSpeed: 1.0
+hitSize: 18
+itemCapacity: 30
+outlineColor: "37383d"
+isEnemy: false
+flying: false
+research: mbt-template
