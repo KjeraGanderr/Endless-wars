@@ -1,0 +1,20 @@
+
+name: "UEG Construction Drone"
+description: "An autonomous engineering drone capable of constructing and repairing structures."
+type: flying
+flying: true
+health: 180
+hitSize: 8
+speed: 2.8
+accel: 0.08
+drag: 0.08
+rotateSpeed: 5.0
+controller: BuilderAI
+isEnemy: false
+buildSpeed: 0.9
+mineWalls: false
+mineFloor: false
+mineSpeed: 0
+mineTier: 0
+itemCapacity: 30
+outlineColor: "37383d"
