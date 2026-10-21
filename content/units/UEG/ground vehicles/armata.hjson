@@ -1,9 +1,9 @@
 type: tank
-name: UEG MBT Variant B
-description: "A protection-focused MBT configuration that sacrifices mobility."
+name: "T-14 Armata"
+description: "A generally well rounded MBT. Offers good firepower and protection, while retaining some speed
 health: 1080
 armor: 18
-speed: 0.50
+speed: 0.74
 accel: 0.028
 drag: 0.13
 rotateSpeed: 1.0
