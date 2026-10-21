@@ -9,7 +9,7 @@ consumes: {
 }
 
 areaSize: 11
-droneType: assemblerDrone
+droneType: assembly-drone
 dronesCreated: 4
 droneConstructTime: 240
 
