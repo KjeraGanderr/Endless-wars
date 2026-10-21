@@ -1,0 +1,87 @@
+
+name: "Drone Factory"
+description: "Produces standard unmanned ground and aerial vehicles for the United Earth Government."
+
+type: UnitFactory
+health: 1500
+size: 4
+
+consumes: {
+  power: 3
+}
+
+plans: [
+  {
+    unit: combat-drone
+    requirements: [
+      silicon/12
+      copper/15
+      personnel-black/1
+    ]
+    time: 480
+  }
+  {
+    unit: construction-drone
+    requirements: [
+      silicon/20
+      graphite/15
+      personnel-green/1
+    ]
+    time: 600
+  }
+  {
+    unit: mining-drone
+    requirements: [
+      silicon/15
+      copper/20
+      personnel-green/1
+    ]
+    time: 540
+  }
+  {
+    unit: recon-drone
+    requirements: [
+      silicon/15
+      lead/10
+      personnel-red/1
+    ]
+    time: 420
+  }
+  {
+    unit: mech-ugv
+    requirements: [
+      silicon/25
+      tungsten/15
+      personnel-blue/1
+    ]
+    time: 720
+  }
+  {
+    unit: wheeled-ugv-1
+    requirements: [
+      silicon/15
+      copper/25
+      personnel-blue/1
+    ]
+    time: 480
+  }
+  {
+    unit: wheeled-ugv-2
+    requirements: [
+      silicon/25
+      graphite/15
+      personnel-blue/1
+    ]
+    time: 600
+  }
+]
+
+category: units
+
+requirements: [
+  copper/180
+  tungsten/50
+  silicon/80
+]
+
+research: barracks
