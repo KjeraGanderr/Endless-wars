@@ -10,6 +10,4 @@ rotateSpeed: 1.3
 hitSize: 18
 itemCapacity: 30
 outlineColor: "37383d"
-isEnemy: false
-flying: false
 research: mechanized-factory
