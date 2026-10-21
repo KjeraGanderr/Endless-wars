@@ -1,6 +1,6 @@
 type: tether
 name: "UEG Assembly Drone"
-aiController: AssemblerAI
+aiController: AssemblyAI
 flying: true
 drag: 0.08
 speed: 3.5
