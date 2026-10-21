@@ -3,7 +3,7 @@ type: tether
 name: "UEG Assembly Drone"
 description: "A tethered construction drone used by UEG assembly facilities."
 
-controller: AssemblyAI
+controller: AssemblerAI
 
 flying: true
 drag: 0.08
