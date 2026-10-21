@@ -1,0 +1,55 @@
+
+name: "Mechanized Factory"
+description: "Produces heavy tracked combat vehicles for the United Earth Government."
+
+type: UnitFactory
+health: 2200
+size: 5
+
+consumes: {
+  power: 5
+}
+
+plans: [
+  {
+    unit: merkava
+    requirements: [
+      silicon/40
+      graphite/30
+      tungsten/25
+      personnel-blue/2
+    ]
+    time: 1200
+  }
+  {
+    unit: challenger
+    requirements: [
+      silicon/45
+      graphite/35
+      tungsten/30
+      personnel-blue/2
+    ]
+    time: 1350
+  }
+  {
+    unit: armata
+    requirements: [
+      silicon/55
+      graphite/40
+      tungsten/40
+      personnel-blue/3
+    ]
+    time: 1650
+  }
+]
+
+category: units
+
+requirements: [
+  copper/350
+  tungsten/150
+  silicon/200
+  titanium/100
+]
+
+research: standard-factory
