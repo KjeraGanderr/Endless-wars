@@ -1,0 +1,15 @@
+type: tank
+name: Merkava Mk.6
+description: "A Main Battle Tank that offers decent protection and mobility, and counts with advanced active protection systems."
+health: 1300
+armor: 14
+speed: 0.68
+accel: 0.035
+drag: 0.12
+rotateSpeed: 1.25
+hitSize: 17
+itemCapacity: 30
+outlineColor: "37383d"
+isEnemy: false
+flying: false
+research: 
