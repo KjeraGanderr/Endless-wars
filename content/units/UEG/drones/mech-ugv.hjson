@@ -1,0 +1,23 @@
+
+name: "Mech UGV"
+description: "A four-legged unmanned combat platform built for difficult terrain."
+type: legs
+health: 650
+hitSize: 13
+speed: 0.9
+accel: 0.045
+drag: 0.12
+rotateSpeed: 2.0
+isEnemy: false
+armor: 4
+itemCapacity: 30
+legCount: 4
+legGroupSize: 2
+legLength: 12
+legSpeed: 0.12
+legForwardScl: 1.0
+legBaseOffset: 2
+legMoveSpace: 1.0
+legPairOffset: 0.5
+outlineColor: "37383d"
+  
