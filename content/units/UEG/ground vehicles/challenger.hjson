@@ -1,9 +1,9 @@
 type: tank
-name: UEG MBT Template
-description: "Reusable baseline for UEG main battle tank variants."
-health: 900
-armor: 14
-speed: 0.62
+name: Challenger 3
+description: "A protection focused MBT, offering the maximum armor, while sacrificing speed."
+health: 2500
+armor: 23
+speed: 0.55
 accel: 0.035
 drag: 0.12
 rotateSpeed: 1.25
