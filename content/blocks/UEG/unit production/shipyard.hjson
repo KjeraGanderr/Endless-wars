@@ -1,0 +1,39 @@
+
+name: "Shipyard"
+description: "Assembles large naval vessels for the United Earth Government."
+type: UnitAssembler
+health: 6000
+size: 7
+consumes: {
+  power: 12
+}
+
+areaSize: 11
+droneType: assemblyDrone
+dronesCreated: 4
+droneConstructTime: 240
+
+plans: [
+  {
+    unit: aircraft-carrier
+    time: 7200
+    requirements: [
+      silicon/300
+      titanium/250
+      tungsten/200
+      surge-alloy/100
+    ]
+  }
+]
+
+category: units
+
+requirements: [
+  copper/700
+  titanium/500
+  silicon/400
+  plastanium/250
+  surge-alloy/100
+]
+
+research: planeyard
