@@ -10,8 +10,8 @@ consumes: {
 
 areaSize: 18
 droneType: ueg-assembly-drone
-dronesCreated: 6
-droneConstructTime: 240
+dronesCreated: 4
+droneConstructTime: 180
 
 plans: [
   {
