@@ -1,12 +1,12 @@
 type: tank
 name: "T-14 Armata"
-description: "A generally well rounded MBT. Offers good firepower and protection, while retaining some speed
-health: 1080
-armor: 18
+description: "A Main Battle Tank that offers well-rounded capabilities overall, but for most, survivability and speed."
+health: 1400
+armor: 15
 speed: 0.74
-accel: 0.028
-drag: 0.13
-rotateSpeed: 1.0
+accel: 0.035
+drag: 0.12
+rotateSpeed: 1.3
 hitSize: 18
 itemCapacity: 30
 outlineColor: "37383d"
