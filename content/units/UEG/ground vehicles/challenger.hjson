@@ -12,4 +12,4 @@ itemCapacity: 30
 outlineColor: "37383d"
 isEnemy: false
 flying: false
-research: dagger
+research: mechanized-factory
