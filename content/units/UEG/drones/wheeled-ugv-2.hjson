@@ -1,0 +1,14 @@
+name: "Wheeled UGV 2"
+description: "A compact unmanned ground vehicle designed for reconnaissance and light combat."
+type: tank
+health: 250
+hitSize: 9
+speed: 2.1
+accel: 0.08
+drag: 0.12
+rotateSpeed: 3.0
+isEnemy: false
+armor: 1
+itemCapacity: 20
+outlineColor: "37383d"
+  
