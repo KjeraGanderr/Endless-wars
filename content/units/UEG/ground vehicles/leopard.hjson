@@ -1,7 +1,7 @@
 type: tank
-name: UEG MBT Variant A
-description: "A mobility-focused MBT configuration with reduced protection."
-health: 780
+name: Leopard 2A8
+description: "A mobility-focused MBT. Counts with high firepower and mobility alongside active protection systems."
+health: 100
 armor: 11
 speed: 0.76
 accel: 0.045
