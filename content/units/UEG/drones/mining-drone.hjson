@@ -1,0 +1,19 @@
+name: "UEG Mining Drone"
+description: "An autonomous mining drone designed to extract basic resources."
+type: flying
+flying: true
+health: 200
+hitSize: 7
+speed: 2.5
+accel: 0.07
+drag: 0.1
+rotateSpeed: 4.0
+controller: MinerAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+mineSpeed: 2.0
+mineTier: 2
+mineHardnessScaling: true
+itemCapacity: 30
+outlineColor: "37383d"
