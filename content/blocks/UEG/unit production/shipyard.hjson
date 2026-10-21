@@ -8,7 +8,7 @@ consumes: {
   power: 12
 }
 
-areaSize: 18
+areaSize: 14
 droneType: ueg-assembly-drone
 dronesCreated: 4
 droneConstructTime: 180
