@@ -1,0 +1,31 @@
+
+name: "Planeyard"
+description: "An installation that assembles, tests and deploys fixed and rotary wing aircraft."
+type: UnitFactory
+health: 3000
+size: 8
+consumes: {
+  power: 8
+}
+plans: [
+  {
+    unit: su57
+    requirements: [
+      silicon/100
+      titanium/80
+      graphite/60
+      personnel-red/3
+    ]
+    time: 2400
+  }
+]
+
+category: units
+requirements: [
+  copper/800
+  tungsten/400
+  silicon/500
+  titanium/300
+  plastanium/150
+]
+research: mechanized-factory
