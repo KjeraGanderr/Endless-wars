@@ -1,0 +1,15 @@
+
+name: "Combat Drone"
+description: "A lightweight unmanned aircraft designed for patrol and battlefield support."
+type: flying
+flying: true
+health: 180
+hitSize: 8
+speed: 3.0
+accel: 0.09
+drag: 0.08
+rotateSpeed: 5.0
+isEnemy: false
+engineSize: 1.5
+itemCapacity: 15
+outlineColor: "37383d"
