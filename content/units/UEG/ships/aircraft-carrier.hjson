@@ -1,0 +1,19 @@
+type: naval
+name: "Aircraft Carrier"
+description: "Massive ship capable of servicing an aircraft fleet. Counts with defensive weapons and can project massive offensive capabilities with it's aircraft, but is vulnerable by itself if not protected."
+flying: false
+speed: 0.3
+rotateSpeed: 0.2
+health: 30000
+drag: 0.20
+accel: 0.50
+hitSize: 40
+faceTarget: false
+rotateShooting: false
+itemCapacity: 400
+targetGround: true
+targetAir: true
+armor: 40
+research: {
+parent: shipyard
+}
