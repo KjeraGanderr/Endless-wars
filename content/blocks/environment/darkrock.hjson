@@ -1,6 +1,6 @@
 name: "Dark Rock"
 type: Floor
 isLiquid: false
-variants: 7
+variants: 6
 solid: false
 placeableOn: true
