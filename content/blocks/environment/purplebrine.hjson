@@ -1,8 +1,8 @@
 name: "Purple Brine"
 type: Floor
 isLiquid: true
-variants: 1
+variants: 3
 solid: false
 placeableOn: false
 liquidDrop: purple-brine
-drownTime: 3.5
+drownTime: 180
