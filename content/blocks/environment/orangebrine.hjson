@@ -1,8 +1,8 @@
 name: "Orange Brine"
 type: Floor
 isLiquid: true
-variants: 1
+variants: 4
 solid: false
 placeableOn: false
 liquidDrop: orange-brine
-drownTime: 4.2
+drownTime: 217
