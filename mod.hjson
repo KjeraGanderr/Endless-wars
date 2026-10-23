@@ -3,6 +3,6 @@ displayName: "Endless Wars"
 main: "endless.Endless"
 author: "Gander"
 description: "A newly revived mod by my part to execute some very new plans. Made by the same guy who fumbled tantros mod so bad!? YES!!!"
-version: "0.61"
+version: "0.70"
 minGameVersion: 154
 repo: KjeraGanderr/Endless-wars
