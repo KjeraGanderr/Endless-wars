@@ -1,6 +1,6 @@
 name: "Orange Ice Brine"
 type: Floor
 isLiquid: false
-variants: 2
+variants: 4
 solid: false
 placeableOn: true
