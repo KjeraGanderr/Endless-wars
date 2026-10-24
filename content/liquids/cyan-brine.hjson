@@ -1,7 +1,6 @@
 name: Cyan Brine
-description: A cold gas, can be used in unit assembly and as a coolant.
-research: orange-brine
-color: bab7e8
+description: "A cold, ion-rich brine suitable for advanced industrial processes and reverse electrodialysis."
+color: 7d8e9a
 gas: false
-temperature: -0.08
+temperature: 0.08
 research: orange-brine
