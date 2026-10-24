@@ -5,7 +5,7 @@
   type: Pump
   size: 2
   health: 300
-  pumpAmount: 0.0430
+  pumpAmount: 0.0860
   liquidCapacity: 30
   hasLiquids: true
   requirements: [
