@@ -1,0 +1,29 @@
+
+{
+  name: "Brine Filter"
+  description: "Filters concentrated brine into usable water for industrial processing. Provides a reliable water supply on otherwise desolate terrain."
+  type: GenericCrafter
+  size: 3
+  health: 400
+  craftTime: 60
+  hasLiquids: true
+  liquidCapacity: 30
+  outputLiquid: {
+    liquid: water
+    amount: 7.2
+  }
+  consumes: {
+    power: 1.1
+    liquid: {
+      liquid: orange-brine
+      amount: 12
+    }
+  }
+  requirements: [
+    beryllium/120
+    graphite/80
+    titanium/60
+  ]
+  category: crafting
+  research: pneumatic-water-pump
+}
