@@ -10,12 +10,12 @@
   liquidCapacity: 30
   outputLiquid: {
     liquid: water
-    amount: 0.2
+    amount: 0.25
   }
   consumes: {
     liquid: {
       liquid: orange-brine
-      amount: 0.25
+      amount: 0.344
     }
   }
   requirements: [
