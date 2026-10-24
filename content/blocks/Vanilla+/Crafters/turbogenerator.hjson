@@ -1,0 +1,30 @@
+
+{
+  name: "Turbogenerator"
+  description: "A Generator that consumes graphite, hydrogen and water to sustain an advanced power-generation process."
+  size: 3
+  health: 800
+  powerProduction: 8.42
+  hasItems: true
+  hasLiquids: true
+  itemCapacity: 30
+  liquidCapacity: 40
+  consumes: {
+    items: [
+      graphite/1
+    ]
+    liquids: [
+      hydrogen/0.12
+      water/0.08
+    ]
+  }
+  requirements: [
+    titanium/250
+    tungsten/180
+    silicon/180
+    beryllium/120
+    silicon/80
+  ]
+  category: power
+  research: brine-gradient-generator
+}
