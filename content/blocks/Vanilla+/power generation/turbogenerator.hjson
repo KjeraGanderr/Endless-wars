@@ -5,18 +5,18 @@
   description: "A Generator that consumes graphite, hydrogen and water to sustain an advanced power-generation process."
   size: 3
   health: 800
-  powerProduction: 8.42
+  powerProduction: 8.63
   hasItems: true
   hasLiquids: true
   itemCapacity: 30
   liquidCapacity: 40
   consumes: {
     items: [
-      graphite/1
+      graphite/2
     ]
     liquids: [
-      hydrogen/0.12
-      water/0.08
+      hydrogen/0.23
+      water/0.21
     ]
   }
   requirements: [
