@@ -1,7 +1,6 @@
 name: Purple Brine
-description: A cold gas, can be used in unit assembly and as a coolant.
-research: cyan-brine
-color: bab7e8
+description: "A highly concentrated brine containing unusual dissolved minerals. Used in specialized chemical processes."
+color: 5a5362
 gas: false
-temperature: -0.4
+temperature: 0.07
 research: cyan-brine
