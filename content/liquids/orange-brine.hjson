@@ -1,7 +1,6 @@
 name: Orange Brine
-description: A cold gas, can be used in unit assembly and as a coolant.
-research: dark-moon
+description: "A mineral-rich brine used in desalination, chemical processing and osmotic power generation."
 color: bab7e8
 gas: false
-temperature: -0.03
+temperature: 0.03
 research: dark-moon
