@@ -1,0 +1,18 @@
+
+{
+  name: "Pneumatic Pump"
+  description: "Can pump liquids indefinitely once placed upon a liquid tile, without power or liquid requirements."
+  details: "If you are to compare it to the mechanical pump it is EVEN WORSE but uh what would you expect about the erekirian malis? good flow? ABSOLUTELY NOT!?"
+  type: Pump
+  size: 2
+  health: 300
+  pumpAmount: 0.17
+  liquidCapacity: 30
+  hasLiquids: true
+  requirements: [
+    titanium/80
+    beryllium/60
+  ]
+  category: liquid
+  research: reinforced-liquid-router
+}
