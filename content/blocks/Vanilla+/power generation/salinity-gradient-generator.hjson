@@ -9,8 +9,8 @@
   liquidCapacity: 30
   consumes: {
     liquids: [
-      orange-brine/0.10
-      water/0.10
+      orange-brine/0.3162
+      water/0.3162
     ]
   }
   requirements: [
