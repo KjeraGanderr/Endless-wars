@@ -1,5 +1,6 @@
 
 {
+  type: ConsumeGenerator
   name: "Turbogenerator"
   description: "A Generator that consumes graphite, hydrogen and water to sustain an advanced power-generation process."
   size: 3
