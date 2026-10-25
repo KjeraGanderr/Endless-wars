@@ -1,6 +1,6 @@
 type: tank
 name: "Merkava Mk.6"
-description: "A Main Battle Tank that offers decent protection and mobility, and counts with advanced active protection systems."
+description: "A Main Battle Tank that offers decent protection and mobility, and counts with advanced active protection systems. Can garrison units and utility inside it for increased protection and traverse speed."
 health: 2760
 armor: 22
 speed: 1.8
@@ -12,9 +12,16 @@ rotateMoveFirst: true
 hitSize: 17
 itemCapacity: 30
 outlineColor: "37383d"
+treadEffect: tankDust
+treadEffectChance: 0.25
 isEnemy: false
 flying: false
 research: mechanized-factory
+treadRects: [
+  // [   X,   Y, Width, Height ]
+  [  -50, -50,   12,   143   ],
+  [   50, -50,   12,   143   ] 
+]
 weapons: [
   {
     name: "merkava-turret"
