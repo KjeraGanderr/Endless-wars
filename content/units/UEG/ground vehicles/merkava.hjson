@@ -17,8 +17,8 @@ isEnemy: false
 flying: false
 research: mechanized-factory
 treadRects: [
-  [  -50, -50,   12,   143   ],
-  [   50, -50,   12,   143   ] 
+  [  -50, -50,   6,   143   ],
+  [   50, -50,   6,   143   ] 
 ]
 weapons: [
   {
