@@ -17,7 +17,6 @@ isEnemy: false
 flying: false
 research: mechanized-factory
 treadRects: [
-  // [   X,   Y, Width, Height ]
   [  -50, -50,   12,   143   ],
   [   50, -50,   12,   143   ] 
 ]
@@ -48,7 +47,7 @@ weapons: [
       pierce: true
       pierceCap: 2
       armorPierce: true
-      shootEffect: shootTank
+      shootEffect: shootAltBig
       smokeEffect: shootBigSmoke
       hitEffect: hitBulletBig
       despawnEffect: hitBulletBig
