@@ -43,7 +43,7 @@ weapons: [
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
       hitEffect: hitBulletBig
-      despawnEffect: despawnBullet
+      despawnEffect: hitBulletBig
     }
   }
 ]
