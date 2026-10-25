@@ -12,7 +12,6 @@ rotateMoveFirst: true
 hitSize: 17
 itemCapacity: 30
 outlineColor: "37383d"
-treadEffect: tankDust
 treadEffectChance: 0.25
 isEnemy: false
 flying: false
