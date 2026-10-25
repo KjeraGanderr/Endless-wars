@@ -4,9 +4,11 @@ description: "A Main Battle Tank that offers decent protection and mobility, and
 health: 1300
 armor: 14
 speed: 0.68
-accel: 0.035
-drag: 0.12
+accel: 0.35
+drag: 0.1
 rotateSpeed: 1.25
+omniMovement: false
+rotateMoveFirst: true
 hitSize: 17
 itemCapacity: 30
 outlineColor: "37383d"
