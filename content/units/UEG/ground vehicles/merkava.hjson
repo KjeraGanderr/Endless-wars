@@ -1,5 +1,5 @@
 type: tank
-name: Merkava Mk.6
+name: "Merkava Mk.6"
 description: "A Main Battle Tank that offers decent protection and mobility, and counts with advanced active protection systems."
 health: 1300
 armor: 14
@@ -13,3 +13,37 @@ outlineColor: "37383d"
 isEnemy: false
 flying: false
 research: mechanized-factory
+weapons: [
+  {
+    name: "merkava-turret"
+    x: 0
+    y: 0
+    rotate: true
+    reload: 90
+    mirror: false
+    rotateSpeed: 2.5
+    shootY: 8
+    recoil: 2
+    shake: 1.5
+
+    shoot: {
+      shots: 1
+    }
+
+    bullet: {
+      type: BasicBulletType
+      speed: 15
+      damage: 800
+      lifetime: 25
+      width: 8
+      height: 18
+      pierce: true
+      pierceCap: 2
+      armorPierce: true
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      hitEffect: hitBulletBig
+      despawnEffect: despawnBullet
+    }
+  }
+]
