@@ -1,8 +1,8 @@
 type: tank
 name: "Merkava Mk.6"
 description: "A Main Battle Tank that offers decent protection and mobility, and counts with advanced active protection systems. Can garrison units and utility inside it for increased protection and traverse speed."
-health: 2800
-armor: 22
+health: 5800
+armor: 12
 speed: 1.4
 accel: 0.07
 drag: 0.15
