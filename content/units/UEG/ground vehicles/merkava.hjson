@@ -47,7 +47,7 @@ weapons: [
       pierce: true
       pierceCap: 2
       armorPierce: true
-      shootEffect: shootTank
+      shootEffect: shootBig
       smokeEffect: shootBigSmoke
       hitEffect: hitBulletBig
       despawnEffect: hitBulletBig
