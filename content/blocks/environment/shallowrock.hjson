@@ -4,3 +4,4 @@ isLiquid: false
 variants: 5
 solid: false 
 placeableOn: true
+drawEdgeOut: false
