@@ -1,0 +1,20 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/content/blocks/**/*.hjson", "/content/blocks/**/*.json"],
+      "url": "https://githubusercontent.com"
+    },
+    {
+      "fileMatch": ["/content/units/**/*.hjson", "/content/units/**/*.json"],
+      "url": "https://githubusercontent.com"
+    },
+    {
+      "fileMatch": ["/content/items/**/*.hjson", "/content/items/**/*.json"],
+      "url": "https://githubusercontent.com"
+    },
+    {
+      "fileMatch": ["/content/liquids/**/*.hjson", "/content/liquids/**/*.json"],
+      "url": "https://githubusercontent.com"
+    }
+  ]
+}
