@@ -6,4 +6,4 @@ description: "A newly revived mod by my part to execute some very new plans. Mad
 version: "0.70"
 minGameVersion: 154
 repo: KjeraGanderr/Endless-wars
-dependencies: [ "MultiCrafter" ]
+dependencies: [ "multicrafter" ]
