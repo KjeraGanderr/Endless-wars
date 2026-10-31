@@ -1,23 +1,25 @@
+
 name: "Salinity Gradient Osmosis Generator"
-  description: "Generates electricity by using the osmotic pressure difference between water and brine."
-  type: MultiCrafter
-  size: 3
-  health: 420
-consumesPower: false
-  hasLiquids: true
-  liquidCapacity: 30
-  category: power
-  drawer: {
-    type: DrawMulti
-    drawers: [
-      {
-        type: DrawRecipe
-      }
-      {
-        type: DrawDefault
-      }
-    ]
-  }
+description: "Generates electricity by using the osmotic pressure difference between water and brine."
+type: MultiCrafter
+size: 3
+health: 420
+hasLiquids: true
+liquidCapacity: 30
+category: power
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRecipe
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
 jsonRecipes: [
   {
     name: cyan-brine
