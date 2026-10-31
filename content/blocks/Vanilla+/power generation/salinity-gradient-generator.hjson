@@ -3,6 +3,7 @@ name: "Salinity Gradient Osmosis Generator"
   type: MultiCrafter
   size: 3
   health: 420
+consumesPower: false
   hasLiquids: true
   liquidCapacity: 30
   category: power
