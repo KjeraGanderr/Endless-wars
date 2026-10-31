@@ -5,3 +5,4 @@ color: 7d8e9a
 gas: false
 temperature: 0.08
 research: orange-brine
+hidden: false
