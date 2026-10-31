@@ -1,7 +1,7 @@
 {
   name: "Salinity Gradient Osmosis Generator"
   description: "Generates electricity by using the osmotic pressure difference between water and brine."
-
+ details: "The first MultiCrafter to be coded. Amazing, isn't it? Yes, it is! it makes my life much easier in terms of facilitating base logistics and avoiding block redundancy for each to use one recipe, it also makes life easier for you for the same motives and that clicking this block deploys a pretty menu i did not have to get through the pain of java-coding for it to work. It is truly a worthy library.   However, there is one thing i'd like to do:   What's possibly the MEANING of THIS? The block DOES NOT assume that without an explicit power consumption value, it does not use power. instead, it CRASHES. It took [red]18 C O M M I T S[white] to fix, like seriously WHAT THE HELL? I will make sure this goes not unnoticed, i will make sure the error does not go unnoticed or see this generator burn to ashes right in front of me by my own hand. Which, i already have since if you take a look at the commits you can see this generator was deleted and re-added. it also CORRUPTED A CAMPAIGN MAP which i had to rescue via said measure. [red] FUCK YOU!   [white] I still think it's an awesome lib btw :3"
   type: MultiCrafter
   size: 3
   health: 420
