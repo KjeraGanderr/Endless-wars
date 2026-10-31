@@ -1,23 +1,66 @@
 {
   name: "Salinity Gradient Osmosis Generator"
   description: "Generates electricity by using the osmotic pressure difference between water and brine."
-  type: ConsumeGenerator
+  type: MultiCrafter
   size: 3
   health: 420
-  powerProduction: 2.5
   hasLiquids: true
   liquidCapacity: 30
-  consumes: {
-    liquids: [
-      orange-brine/0.3162
-      water/0.3162
+
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawRecipe
+      }
+      {
+        type: DrawDefault
+      }
     ]
   }
-  requirements: [
-    beryllium/30
-    titanium/100
-    lead/60
-  ]
-  category: power
-  research: pneumatic-water-pump
-}
+
+
+jsonRecipes: [
+  {
+    name: cyan-brine
+    localizedName: "Cyan Brine"
+    craftTime: 60
+    input: {
+      liquids: [
+        cyan-brine/0.34
+        water/0.3162
+      ]
+    }
+    output: {
+      power: 2.7
+    }
+  }
+  {
+    name: orange-brine
+    localizedName: "Orange Brine"
+    craftTime: 60
+    input: {
+      liquids: [
+        orange-brine/0.3162
+        water/0.3162
+      ]
+    }
+    output: {
+      power: 2.5
+    }
+  }
+  {
+    name: purple-brine
+    localizedName: "Purple Brine"
+    craftTime: 60
+    input: {
+      liquids: [
+        purple-brine/0.25
+        water/0.3162
+      ]
+    }
+    output: {
+      power: 2.5
+    }
+  }
+]
