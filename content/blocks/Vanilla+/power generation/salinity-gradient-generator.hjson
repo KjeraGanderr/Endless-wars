@@ -5,7 +5,7 @@ name: "Salinity Gradient Osmosis Generator"
   health: 420
   hasLiquids: true
   liquidCapacity: 30
-
+  category: power
   drawer: {
     type: DrawMulti
     drawers: [
