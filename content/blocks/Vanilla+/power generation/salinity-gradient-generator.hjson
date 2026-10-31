@@ -10,7 +10,7 @@ liquidCapacity: 30
 
 category: power
 buildVisibility: shown
-
+consumes: { power: 0 } 
 requirements: [
   beryllium/30
   titanium/100
