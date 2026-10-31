@@ -5,3 +5,4 @@ color: 5a5362
 gas: false
 temperature: 0.07
 research: cyan-brine
+hidden: false
