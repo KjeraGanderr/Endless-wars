@@ -5,3 +5,4 @@ color: bab7e8
 gas: false
 temperature: 0.03
 research: dark-moon
+hidden: false
