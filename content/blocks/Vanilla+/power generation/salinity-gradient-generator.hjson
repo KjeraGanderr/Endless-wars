@@ -1,77 +1,91 @@
-name: "Salinity Gradient Osmosis Generator"
-description: "Generates electricity by using the osmotic pressure difference between water and brine."
-type: MultiCrafter
 
-size: 3
-health: 420
+{
+  name: "Salinity Gradient Osmosis Generator"
+  description: "Generates electricity by using the osmotic pressure difference between water and brine."
 
-hasLiquids: true
-liquidCapacity: 30
+  type: MultiCrafter
+  size: 3
+  health: 420
 
-category: power
-buildVisibility: shown
-consumes: { power: 0 } 
-requirements: [
-  beryllium/30
-  titanium/100
-  lead/60
-]
+  hasLiquids: true
+  liquidCapacity: 30
 
-research: pneumatic-water-pump
+  category: power
+  buildVisibility: shown
 
-drawer: {
-  type: DrawMulti
-  drawers: [
+  requirements: [
+    beryllium/30
+    titanium/100
+    lead/60
+  ]
+
+  research: pneumatic-water-pump
+
+  autoSelectRecipe: false
+
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawRecipe
+      }
+      {
+        type: DrawDefault
+      }
+    ]
+  }
+
+  jsonRecipes: [
     {
-      type: DrawRecipe
+      name: cyan-brine
+      localizedName: "Cyan Brine"
+      craftTime: 60
+      unlocked: true
+
+      input: {
+        liquids: [
+          cyan-brine/0.34
+          water/0.3162
+        ]
+      }
+
+      output: {
+        power: 2.7
+      }
     }
     {
-      type: DrawDefault
+      name: orange-brine
+      localizedName: "Orange Brine"
+      craftTime: 60
+      unlocked: true
+
+      input: {
+        liquids: [
+          orange-brine/0.3162
+          water/0.3162
+        ]
+      }
+
+      output: {
+        power: 2.5
+      }
+    }
+    {
+      name: purple-brine
+      localizedName: "Purple Brine"
+      craftTime: 60
+      unlocked: true
+
+      input: {
+        liquids: [
+          purple-brine/0.25
+          water/0.3162
+        ]
+      }
+
+      output: {
+        power: 2.5
+      }
     }
   ]
 }
-
-jsonRecipes: [
-  {
-    name: cyan-brine
-    localizedName: "Cyan Brine"
-    craftTime: 60
-    input: {
-      liquids: [
-        cyan-brine/0.34
-        water/0.3162
-      ]
-    }
-    output: {
-      power: 2.7
-    }
-  }
-  {
-    name: orange-brine
-    localizedName: "Orange Brine"
-    craftTime: 60
-    input: {
-      liquids: [
-        orange-brine/0.3162
-        water/0.3162
-      ]
-    }
-    output: {
-      power: 2.5
-    }
-  }
-  {
-    name: purple-brine
-    localizedName: "Purple Brine"
-    craftTime: 60
-    input: {
-      liquids: [
-        purple-brine/0.25
-        water/0.3162
-      ]
-    }
-    output: {
-      power: 2.5
-    }
-  }
-]
