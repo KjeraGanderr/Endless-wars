@@ -33,8 +33,8 @@ weapons: [
   hitSize: 4
   collidesAir: false
   collidesGround: true
-}
-{
+   }
+  }
 name: ocylyptus-flame
 x: 14
 y: -5
@@ -86,8 +86,10 @@ bullet: {
       colorFrom: ffffff    
       colorTo: ff3300
     }
-  ]
+  }
 }
+]
+
 legCount: 60
 legLength: 10
 legBaseOffset: 8
