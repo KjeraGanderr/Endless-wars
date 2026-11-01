@@ -1,7 +1,7 @@
 type: legs
 name: Ocylyptus
-description: "A radial biomechanical organism reinforced with cybernetic armor. It's unorthodox anatomy allows it to become bouyant over water."
-details: "it is mathematically a spider like spiroct or anthicus btw but with 60 legs"
+description: "A radial biomechanical organism reinforced with cybernetic armor. Its unorthodox anatomy allows it to become buoyant over water."
+details: "It is mathematically a spider like Spiroct or Anthicus btw but with 60 legs"
 health: 4300
 armor: 3
 speed: 0.8
@@ -9,6 +9,7 @@ hitSize: 38
 rotateSpeed: 1.5
 drag: 0.1
 accel: 0.08
+
 weapons: [
   {
     name: "ocylyptus-cannon"
@@ -20,75 +21,79 @@ weapons: [
     shootY: 5
     range: 150
     recoil: 2
-   bullet: {
-  type: BasicBulletType
-  speed: 10
-  damage: 42
-  lifetime: 11.5
-  width: 8
-  height: 12
-  trailLength: 35
-  trailWidth: 2.5
-  trailColor: "b7d7ff"
-  hitSize: 4
-  collidesAir: false
-  collidesGround: true
-   }
-  }
-name: ocylyptus-flame
-x: 14
-y: -5
-reload: 0.16
-rotate: true
-inaccuracy: 12
-mirror: false
-shootY: 4
-recoil: 1
-bullet: {
-  type: BasicBulletType
-  speed: 9    
-  damage: 11       
-  lifetime: 22    
-  width: 0
-  height: 0
-  sprite: blank
-  despawnEffect: none
-  hitEffect: fireHit
-  pierce: true 
-  pierceBuilding: true
-  status: burning
-  statusDuration: 120 
-  trailInterval: 1.2
-  trailEffect: {
-    type: ParticleEffect
-    particles: 1
-    length: 0
-    lifetime: 18
-    sizeFrom: 6.5
-    sizeTo: 0.8
-    interp: pow3Out
-    colorFrom: ffaa55ff
-    colorTo: ff5500ff
-  shootEffect: [
-    {
-      type: ParticleEffect
-      region: circle      
-      particles: 25       
-      length: 45        
-      cone: 18           
-      baseRotation: 0
-      lifetime: 35       
-      sizeFrom: 5.5      
-      sizeTo: 1.0         
-      sizeRandom: 0.4   
-      interp: pow3Out      
-      sizeInterp: linear
-      colorFrom: ffffff    
-      colorTo: ff3300
+    bullet: {
+      type: BasicBulletType
+      speed: 10
+      damage: 42
+      lifetime: 11.5
+      width: 8
+      height: 12
+      trailLength: 35
+      trailWidth: 2.5
+      trailColor: "b7d7ff"
+      hitSize: 4
+      collidesAir: false
+      collidesGround: true
     }
   }
-}
+  {
+    name: "ocylyptus-flame"
+    x: 14
+    y: -5
+    reload: 0.16
+    rotate: true
+    inaccuracy: 12
+    mirror: false
+    shootY: 4
+    recoil: 1
+    bullet: {
+      type: BasicBulletType
+      speed: 9
+      damage: 11
+      lifetime: 22
+      width: 0
+      height: 0
+      sprite: blank
+      despawnEffect: none
+      hitEffect: fireHit
+      pierce: true
+      pierceBuilding: true
+      status: burning
+      statusDuration: 120
+      trailInterval: 1.2
+      trailEffect: {
+        type: ParticleEffect
+        particles: 1
+        length: 0
+        lifetime: 18
+        sizeFrom: 6.5
+        sizeTo: 0.8
+        interp: pow3Out
+        colorFrom: ffaa55ff
+        colorTo: ff5500ff
+      }
+    }
+    shootEffect: [
+      {
+        type: ParticleEffect
+        region: circle
+        particles: 25
+        length: 45
+        cone: 18
+        baseRotation: 0
+        lifetime: 35
+        sizeFrom: 5.5
+        sizeTo: 1.0
+        sizeRandom: 0.4
+        interp: pow3Out
+        sizeInterp: linear
+        colorFrom: ffffff
+        colorTo: ff3300
+      }
+    ]
+  }
 ]
+
 legCount: 60
 legLength: 10
 legBaseOffset: 8
