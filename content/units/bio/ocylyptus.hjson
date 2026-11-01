@@ -81,10 +81,10 @@ weapons: [
                                                   sizeInterp: linear
                                                     
                                                         colorFrom: ffffff    
-                                                          colorTo: ff3300  
+                                              }                                          ]                                            colorTo: ff3300  
         }
     }
-  }
+  
       ]
 legCount: 60
 legLength: 10
