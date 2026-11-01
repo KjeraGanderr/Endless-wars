@@ -89,7 +89,6 @@ bullet: {
   }
 }
 ]
-
 legCount: 60
 legLength: 10
 legBaseOffset: 8
