@@ -63,7 +63,8 @@ weapons: [
       despawnEffect: none
       status: burning
       statusDuration: 120 
-      shootEffect:[
+      shootEffect: [
+        {
             type: ParticleEffect
                   region: circle      
                     particles: 25       
@@ -81,12 +82,9 @@ weapons: [
                                                     
                                                         colorFrom: ffffff    
                                                           colorTo: ff3300  
-      ] 
-        
         }
-
-        }
-
+    }
+  }
       ]
 legCount: 60
 legLength: 10
