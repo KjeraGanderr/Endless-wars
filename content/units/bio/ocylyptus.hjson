@@ -34,58 +34,60 @@ weapons: [
   collidesAir: false
   collidesGround: true
 }
-  }
-  {
-    name: "ocylyptus-flame"
-    x: 14
-    y: -5
-    reload: 0.16
-    rotate: true
-    innacuracy: 12
-    mirror: false
-    shootY: 4
-    recoil: 1
-    bullet: {
-      type: BasicBulletType
-      sprite: circle
-      speed: 9    
-      damage: 11       
-      lifetime: 22    
-      width: 7
-      height: 20
-      frontColor: ffaa55ff 
-      backColor: ff5500ff 
-      trailEffect: fire
-      trailChance: 0.4
-      pierce: true 
-      pierceBuilding: true
-      hitEffect: fireHit
-      despawnEffect: none
-      status: burning
-      statusDuration: 120 
-      shootEffect: [
-        {
-            type: ParticleEffect
-                  region: circle      
-                    particles: 25       
-                          length: 45        
-                            cone: 18           
-                              baseRotation: 0
-                                    lifetime: 35       
-                                      sizeFrom: 5.5      
-                                        sizeTo: 1.0         
-                                          sizeRandom: 0.4   
-                                            
-                                        
-                                                interp: pow3Out      
-                                                  sizeInterp: linear
-                                                    
-                                                        colorFrom: ffffff    
-                                              }                                          ]                                            colorTo: ff3300  
-        }
+{
+name: ocylyptus-flame
+x: 14
+y: -5
+reload: 0.16
+rotate: true
+inaccuracy: 12
+mirror: false
+shootY: 4
+recoil: 1
+bullet: {
+  type: BasicBulletType
+  speed: 9    
+  damage: 11       
+  lifetime: 22    
+  width: 0
+  height: 0
+  sprite: blank
+  despawnEffect: none
+  hitEffect: fireHit
+  pierce: true 
+  pierceBuilding: true
+  status: burning
+  statusDuration: 120 
+  trailInterval: 1.2
+  trailEffect: {
+    type: ParticleEffect
+    particles: 1
+    length: 0
+    lifetime: 18
+    sizeFrom: 6.5
+    sizeTo: 0.8
+    interp: pow3Out
+    colorFrom: ffaa55ff
+    colorTo: ff5500ff
+  shootEffect: [
+    {
+      type: ParticleEffect
+      region: circle      
+      particles: 25       
+      length: 45        
+      cone: 18           
+      baseRotation: 0
+      lifetime: 35       
+      sizeFrom: 5.5      
+      sizeTo: 1.0         
+      sizeRandom: 0.4   
+      interp: pow3Out      
+      sizeInterp: linear
+      colorFrom: ffffff    
+      colorTo: ff3300
     }
-  
-      ]
+  ]
+}
 legCount: 60
 legLength: 10
 legBaseOffset: 8
