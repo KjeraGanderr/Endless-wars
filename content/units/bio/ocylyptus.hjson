@@ -1,7 +1,7 @@
 type: legs
 name: Ocylyptus
 description: "A radial biomechanical organism reinforced with cybernetic armor. It's unorthodox anatomy allows it to become bouyant over water."
-details: "it is mathematically a spider like spiroct or anthicus btw"
+details: "it is mathematically a spider like spiroct or anthicus btw but with 60 legs"
 health: 4300
 armor: 3
 speed: 0.55
@@ -66,7 +66,7 @@ weapons: [
   }
 ]
 legCount: 60
-legLength: 9
+legLength: 10
 legBaseOffset: 8
 legMoveSpace: 1.2
 legForwardScl: 0.5
