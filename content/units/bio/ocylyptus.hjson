@@ -22,12 +22,12 @@ weapons: [
     recoil: 2
    bullet: {
   type: BasicBulletType
-  speed: 8
+  speed: 10
   damage: 42
   lifetime: 11.5
   width: 8
   height: 12
-  trailLength: 12
+  trailLength: 35
   trailWidth: 2.5
   trailColor: "b7d7ff"
   hitSize: 4
@@ -47,11 +47,12 @@ weapons: [
     recoil: 1
     bullet: {
       type: BasicBulletType
-      speed: 3.8      
+      sprite: circle
+      speed: 9    
       damage: 11       
       lifetime: 22    
       width: 7
-      height: 7
+      height: 20
       frontColor: ffaa55ff 
       backColor: ff5500ff 
       trailEffect: fire
@@ -62,9 +63,29 @@ weapons: [
       despawnEffect: none
       status: burning
       statusDuration: 120 
-}
-  }
-]
+      shootEffect: 
+            type: ParticleEffect
+                  region: circle      
+                    particles: 25       
+                          length: 45        
+                            cone: 18           
+                              baseRotation: 0
+                                    lifetime: 35       
+                                      sizeFrom: 5.5      
+                                        sizeTo: 1.0         
+                                          sizeRandom: 0.4   
+                                            
+                                        
+                                                interp: pow3Out      
+                                                  sizeInterp: linear
+                                                    
+                                                        colorFrom: ffffff    
+                                                          colorTo: ff3300     
+        }
+
+        }
+
+      ]
 legCount: 60
 legLength: 10
 legBaseOffset: 8
