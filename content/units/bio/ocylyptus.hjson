@@ -40,60 +40,163 @@ weapons: [
     name: "ocylyptus-flame"
     x: 14
     y: -5
-    reload: 0.16
+    reload: 9.6
     rotate: true
     inaccuracy: 12
     mirror: false
     shootY: 4
     recoil: 1
+
     bullet: {
       type: BasicBulletType
-      speed: 9
+      sprite: circle
+      width: 3
+      height: 8
       damage: 11
+      speed: 5.6
       lifetime: 22
-      width: 0
-      height: 0
-      sprite: blank
-      despawnEffect: none
-      hitEffect: fireHit
+      drag: 0.04
+      keepVelocity: false
+      scaleLife: false
+
+      mixColorFrom: ff7138
+      mixColorTo: ffdca0
+
+      shrinkX: 1
+      shrinkY: 1
+      shrinkInterp: pow5In
+
       pierce: true
       pierceBuilding: true
       status: burning
       statusDuration: 120
-      trailInterval: 1.2
-      trailEffect: {
-        type: ParticleEffect
-        particles: 1
-        length: 0
-        lifetime: 18
-        sizeFrom: 6.5
-        sizeTo: 0.8
-        interp: pow3Out
-        colorFrom: ffaa55ff
-        colorTo: ff5500ff
-      }
+
+      smokeEffect: none
+      lightRadius: 0
+      despawnEffect: none
+
+      hitEffect: [
+        {
+          type: ParticleEffect
+          cone: 35
+          lifetime: 12
+          particles: 8
+          baseLength: 2
+          length: 25
+          line: true
+          strokeFrom: 2.75
+          strokeTo: 0
+          lenFrom: 3
+          lenTo: 1
+          colorFrom: ffdca0
+          colorTo: ff5500
+          layer: 101
+        }
+        {
+          type: ParticleEffect
+          cone: 45
+          lifetime: 9
+          particles: 7
+          baseLength: 2
+          length: 35
+          line: true
+          strokeFrom: 1.75
+          strokeTo: 0
+          lenFrom: 5
+          lenTo: 2
+          colorFrom: ffaa55
+          colorTo: ff5500
+          layer: 101
+        }
+        {
+          type: ParticleEffect
+          cone: 65
+          lifetime: 9
+          particles: 5
+          baseLength: 2
+          length: 25
+          line: true
+          strokeFrom: 1.75
+          strokeTo: 0
+          lenFrom: 5
+          lenTo: 2
+          colorFrom: ff7138
+          colorTo: ff3300
+          layer: 101
+        }
+      ]
+
+      shootEffect: [
+        {
+          type: ParticleEffect
+          region: circle
+          lifetime: 25
+          particles: 12
+          length: 65
+          cone: 10
+          sizeFrom: 2
+          sizeTo: 7
+          colorFrom: ffdca0
+          colorTo: ff5500
+          sizeInterp: pow3Out
+          interp: pow2Out
+          randLength: true
+          followParent: false
+        }
+        {
+          type: ParticleEffect
+          region: circle
+          lifetime: 35
+          particles: 8
+          length: 45
+          cone: 7
+          sizeFrom: 1
+          sizeTo: 5
+          colorFrom: ffaa55
+          colorTo: ff330000
+          sizeInterp: pow3Out
+          interp: pow2Out
+          randLength: true
+          followParent: false
+          layer: 109
+        }
+        {
+          type: ParticleEffect
+          cone: 45
+          lifetime: 9
+          particles: 8
+          baseLength: 2
+          length: 35
+          line: true
+          strokeFrom: 2
+          strokeTo: 0
+          lenFrom: 5
+          lenTo: 2
+          colorFrom: ffdca0
+          colorTo: ff5500
+          layer: 101
+        }
+        {
+          type: ParticleEffect
+          lifetime: 20
+          baseLength: 0
+          particles: 5
+          length: 15
+          sizeFrom: 2
+          sizeTo: 0
+          colorFrom: ffaa55
+          colorTo: ff3300a0
+          interp: pow2Out
+          sizeInterp: pow3In
+        }
+      ]
+
+      setDefaults: false
+      fragOnAbsorb: false
+      despawnHit: false
     }
-    shootEffect: [
-      {
-        type: ParticleEffect
-        region: circle
-        particles: 25
-        length: 45
-        cone: 18
-        baseRotation: 0
-        lifetime: 35
-        sizeFrom: 5.5
-        sizeTo: 1.0
-        sizeRandom: 0.4
-        interp: pow3Out
-        sizeInterp: linear
-        colorFrom: ffffff
-        colorTo: ff3300
-      }
-    ]
   }
 ]
-
 legCount: 60
 legLength: 10
 legBaseOffset: 8
