@@ -5,7 +5,7 @@ details: "It is mathematically a spider like Spiroct or Anthicus btw but with 60
 health: 4300
 armor: 3
 speed: 0.8
-hitSize: 38
+hitSize: 27
 rotateSpeed: 1.5
 drag: 0.1
 accel: 0.08
@@ -19,18 +19,18 @@ weapons: [
     rotate: true
     mirror: true
     shootY: 5
-    range: 150
     recoil: 2
     bullet: {
       type: BasicBulletType
-      speed: 10
+      speed: 11
       damage: 42
-      lifetime: 11.5
+      lifetime: 16
       width: 8
       height: 12
       trailLength: 35
       trailWidth: 2.5
-      trailColor: "b7d7ff"
+      trailColor: "F7CBA4"
+      bulletColor: "F7CBA4"
       hitSize: 4
       collidesAir: false
       collidesGround: true
@@ -40,13 +40,12 @@ weapons: [
     name: "ocylyptus-flame"
     x: 14
     y: -5
-    reload: 9.6
+    reload: 0.16
     rotate: true
     inaccuracy: 12
     mirror: false
     shootY: 4
     recoil: 1
-
     bullet: {
       type: BasicBulletType
       sprite: circle
@@ -58,23 +57,20 @@ weapons: [
       drag: 0.04
       keepVelocity: false
       scaleLife: false
-
       mixColorFrom: ff7138
       mixColorTo: ffdca0
-
       shrinkX: 1
       shrinkY: 1
       shrinkInterp: pow5In
-
-      pierce: true
+      pierce: false 
       pierceBuilding: true
       status: burning
       statusDuration: 120
-
       smokeEffect: none
       lightRadius: 0
       despawnEffect: none
-
+      collidesAir: false
+      collidesGround: true
       hitEffect: [
         {
           type: ParticleEffect
@@ -130,9 +126,9 @@ weapons: [
         {
           type: ParticleEffect
           region: circle
-          lifetime: 10
-          particles: 14
-          length: 65
+          lifetime: 13
+          particles: 16
+          length: 85
           cone: 14
           sizeFrom: 5
           sizeTo: 1
@@ -146,9 +142,9 @@ weapons: [
         {
           type: ParticleEffect
           region: circle
-          lifetime: 13
-          particles: 10
-          length: 50
+          lifetime: 16
+          particles: 12
+          length: 70
           cone: 12
           sizeFrom: 4
           sizeTo: 0.8
@@ -163,10 +159,10 @@ weapons: [
         {
           type: ParticleEffect
           cone: 45
-          lifetime: 7
-          particles: 10
+          lifetime: 9
+          particles: 12
           baseLength: 2
-          length: 32
+          length: 42
           line: true
           strokeFrom: 2.2
           strokeTo: 0
@@ -178,10 +174,10 @@ weapons: [
         }
         {
           type: ParticleEffect
-          lifetime: 9
+          lifetime: 11
           baseLength: 0
-          particles: 7
-          length: 18
+          particles: 8
+          length: 24
           sizeFrom: 2
           sizeTo: 0
           colorFrom: ffaa55
