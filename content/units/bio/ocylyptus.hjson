@@ -130,12 +130,12 @@ weapons: [
         {
           type: ParticleEffect
           region: circle
-          lifetime: 8
-          particles: 12
-          length: 45
-          cone: 10
-          sizeFrom: 3
-          sizeTo: 0.5
+          lifetime: 10
+          particles: 14
+          length: 65
+          cone: 14
+          sizeFrom: 5
+          sizeTo: 1
           colorFrom: ffdca0
           colorTo: ff550000
           sizeInterp: pow3Out
@@ -146,12 +146,12 @@ weapons: [
         {
           type: ParticleEffect
           region: circle
-          lifetime: 11
-          particles: 8
-          length: 35
-          cone: 7
-          sizeFrom: 2.5
-          sizeTo: 0.5
+          lifetime: 13
+          particles: 10
+          length: 50
+          cone: 12
+          sizeFrom: 4
+          sizeTo: 0.8
           colorFrom: ffaa55
           colorTo: ff330000
           sizeInterp: pow3Out
@@ -163,14 +163,14 @@ weapons: [
         {
           type: ParticleEffect
           cone: 45
-          lifetime: 6
-          particles: 8
+          lifetime: 7
+          particles: 10
           baseLength: 2
-          length: 25
+          length: 32
           line: true
-          strokeFrom: 1.2
+          strokeFrom: 2.2
           strokeTo: 0
-          lenFrom: 4
+          lenFrom: 6
           lenTo: 1
           colorFrom: ffdca0
           colorTo: ff550000
@@ -178,11 +178,11 @@ weapons: [
         }
         {
           type: ParticleEffect
-          lifetime: 8
+          lifetime: 9
           baseLength: 0
-          particles: 5
-          length: 12
-          sizeFrom: 1
+          particles: 7
+          length: 18
+          sizeFrom: 2
           sizeTo: 0
           colorFrom: ffaa55
           colorTo: ff330000
