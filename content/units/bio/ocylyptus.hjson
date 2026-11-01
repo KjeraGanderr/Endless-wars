@@ -125,70 +125,79 @@ weapons: [
           layer: 101
         }
       ]
+
       shootEffect: [
-  {
-    type: ParticleEffect
-    region: circle
-    lifetime: 12
-    particles: 12
-    length: 45
-    cone: 10
-    sizeFrom: 0.8
-    sizeTo: 3
-    colorFrom: ffdca0
-    colorTo: ff550000
-    sizeInterp: pow3In
-    interp: pow3Out
-    randLength: true
-    followParent: false
-  }
-  {
-    type: ParticleEffect
-    region: circle
-    lifetime: 17
-    particles: 8
-    length: 35
-    cone: 7
-    sizeFrom: 0.5
-    sizeTo: 2.5
-    colorFrom: ffaa55
-    colorTo: ff330000
-    sizeInterp: pow3In
-    interp: pow3Out
-    randLength: true
-    followParent: false
-    layer: 109
-  }
-  {
-    type: ParticleEffect
-    cone: 45
-    lifetime: 6
-    particles: 8
-    baseLength: 2
-    length: 25
-    line: true
-    strokeFrom: 1.2
-    strokeTo: 0
-    lenFrom: 4
-    lenTo: 1
-    colorFrom: ffdca0
-    colorTo: ff550000
-    layer: 101
-  }
-  {
-    type: ParticleEffect
-    lifetime: 10
-    baseLength: 0
-    particles: 5
-    length: 12
-    sizeFrom: 1
-    sizeTo: 0
-    colorFrom: ffaa55
-    colorTo: ff330000
-    interp: pow2Out
-    sizeInterp: pow3In
+        {
+          type: ParticleEffect
+          region: circle
+          lifetime: 8
+          particles: 12
+          length: 45
+          cone: 10
+          sizeFrom: 3
+          sizeTo: 0.5
+          colorFrom: ffdca0
+          colorTo: ff550000
+          sizeInterp: pow3Out
+          interp: pow3Out
+          randLength: true
+          followParent: false
+        }
+        {
+          type: ParticleEffect
+          region: circle
+          lifetime: 11
+          particles: 8
+          length: 35
+          cone: 7
+          sizeFrom: 2.5
+          sizeTo: 0.5
+          colorFrom: ffaa55
+          colorTo: ff330000
+          sizeInterp: pow3Out
+          interp: pow3Out
+          randLength: true
+          followParent: false
+          layer: 109
+        }
+        {
+          type: ParticleEffect
+          cone: 45
+          lifetime: 6
+          particles: 8
+          baseLength: 2
+          length: 25
+          line: true
+          strokeFrom: 1.2
+          strokeTo: 0
+          lenFrom: 4
+          lenTo: 1
+          colorFrom: ffdca0
+          colorTo: ff550000
+          layer: 101
+        }
+        {
+          type: ParticleEffect
+          lifetime: 8
+          baseLength: 0
+          particles: 5
+          length: 12
+          sizeFrom: 1
+          sizeTo: 0
+          colorFrom: ffaa55
+          colorTo: ff330000
+          interp: pow2Out
+          sizeInterp: pow3Out
+        }
+      ]
+
+      setDefaults: false
+      fragOnAbsorb: false
+      despawnHit: false
+    }
   }
 ]
+
 legCount: 60
 legLength: 10
 legBaseOffset: 8
