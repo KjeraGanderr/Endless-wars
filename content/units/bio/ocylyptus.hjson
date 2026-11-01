@@ -4,7 +4,7 @@ description: "A radial biomechanical organism reinforced with cybernetic armor. 
 details: "it is mathematically a spider like spiroct or anthicus btw but with 60 legs"
 health: 4300
 armor: 3
-speed: 0.55
+speed: 0.8
 hitSize: 38
 rotateSpeed: 1.5
 drag: 0.1
@@ -39,7 +39,7 @@ weapons: [
     name: "ocylyptus-flame"
     x: 14
     y: -5
-    reload: 20
+    reload: 0.16
     rotate: true
     innacuracy: 12
     mirror: false
