@@ -63,7 +63,7 @@ weapons: [
       despawnEffect: none
       status: burning
       statusDuration: 120 
-      shootEffect: 
+      shootEffect:[
             type: particleEffect
                   region: circle      
                     particles: 25       
@@ -80,7 +80,9 @@ weapons: [
                                                   sizeInterp: linear
                                                     
                                                         colorFrom: ffffff    
-                                                          colorTo: ff3300     
+                                                          colorTo: ff3300  
+      ] 
+        
         }
 
         }
