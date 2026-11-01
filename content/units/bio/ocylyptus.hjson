@@ -64,7 +64,7 @@ weapons: [
       status: burning
       statusDuration: 120 
       shootEffect:[
-            type: particleEffect
+            type: ParticleEffect
                   region: circle      
                     particles: 25       
                           length: 45        
