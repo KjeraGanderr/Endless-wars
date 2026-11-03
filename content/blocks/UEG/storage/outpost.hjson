@@ -8,7 +8,7 @@ size: 4
 itemCapacity: 3000
 category: effect
 unitCapModifier: 8
-unitType: alpha
+unitType: engineering-ifv
 
 buildVisibility: shown
 alwaysUnlocked: true
