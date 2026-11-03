@@ -1,28 +1,69 @@
+type: MultiCrafter
+name: "Brine Filter"
+description: "Separates dissolved salts and impurities from different types of brine, recovering usable water."
+size: 3
+health: 400
+craftTime: 60
+hasLiquids: true
+liquidCapacity: 30
+itemCapacity: 10
+category: crafting
+research: pneumatic-water-pump
 
-{
-  name: "Brine Filter"
-  description: "Filters concentrated brine into usable water for industrial processing. Provides a reliable water supply on otherwise desolate terrain."
-  type: GenericCrafter
-  size: 3
-  health: 400
-  craftTime: 60
-  hasLiquids: true
-  liquidCapacity: 30
-  outputLiquid: {
-    liquid: water
-    amount: 0.25
-  }
-  consumes: {
-    liquid: {
-      liquid: orange-brine
-      amount: 0.344
+drawer: {
+  type: DrawDefault
+}
+
+jsonRecipes: [
+  {
+    name: orange-brine-filtration
+    localizedName: "Orange Brine Filtration"
+    craftTime: 60
+    input: {
+      items: []
+      liquids: ["orange-brine/0.3"]
+      power: 0
+    }
+    output: {
+      items: []
+      liquids: ["water/0.25"]
+      power: 0
     }
   }
-  requirements: [
-    beryllium/120
-    graphite/80
-    titanium/60
-  ]
-  category: crafting
-  research: pneumatic-water-pump
-}
+  {
+    name: cyan-brine-filtration
+    localizedName: "Cyan Brine Filtration"
+    craftTime: 60
+    input: {
+      items: []
+      liquids: ["cyan-brine/0.5"]
+      power: 0
+    }
+    output: {
+      items: []
+      liquids: ["water/0.416667"]
+      power: 0
+    }
+  }
+  {
+    name: purple-brine-filtration
+    localizedName: "Purple Brine Filtration"
+    craftTime: 60
+    input: {
+      items: []
+      liquids: ["purple-brine/0.25"]
+      power: 0
+    }
+    output: {
+      items: []
+      liquids: ["water/0.25"]
+      power: 0
+    }
+  }
+]
+
+requirements: [
+  "beryllium/40"
+  "graphite/80"
+  "titanium/60"
+]
