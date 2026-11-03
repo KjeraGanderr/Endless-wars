@@ -28,7 +28,7 @@ jsonRecipes: [
       power: 0.5
     }
     output: {
-      items: ["personnel-black"/1]
+      items: ["personnel-black/1"]
       liquids: []
       power: 0
     }
