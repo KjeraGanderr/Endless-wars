@@ -1,6 +1,7 @@
 name: "Outpost"
 planet: theater-ops
 description: "An UEG base of operations. Once destroyed, the sector is lost."
+
 type: CoreBlock
 health: 3000
 size: 4
@@ -8,14 +9,17 @@ itemCapacity: 3000
 category: effect
 unitCapModifier: 8
 unitType: alpha
+
 buildVisibility: shown
 alwaysUnlocked: true
+
 research: {
-root: true
-name: "Theater Of Ops"
-requiresUnlock: false
-planet: theater-ops
+    root: true
+    name: "Theater Of Ops"
+    requiresUnlock: false
+    planet: theater-ops
 }
+
 requirements: [
     tungsten/500
     beryllium/1000
