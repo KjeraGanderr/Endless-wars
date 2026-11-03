@@ -1,6 +1,7 @@
 name: "Forward Base Ops"
 planet: theater-ops
 description: "An UEG base of operations. Once destroyed, the sector is lost."
+
 type: CoreBlock
 health: 6000
 size: 6
@@ -8,18 +9,18 @@ itemCapacity: 6000
 category: effect
 unitCapModifier: 16
 unitType: beta
+
 buildVisibility: shown
-alwaysUnlocked: true
+alwaysUnlocked: false
+
 research: {
-root: false
-name: "Forward Base Of Operations"
-requiresUnlock: false
-planet: theater-ops
+    parent: outpost
+    planet: theater-ops
 }
+
 requirements: [
     tungsten/500
     beryllium/1000
     titanium/750
     silicon/500
 ]
-  
