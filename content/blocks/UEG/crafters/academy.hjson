@@ -28,7 +28,7 @@ jsonRecipes: [
       power: 0.5
     }
     output: {
-      items: ["black-personnel/1"]
+      items: ["personnel-black"/1]
       liquids: []
       power: 0
     }
@@ -47,7 +47,7 @@ jsonRecipes: [
       power: 0.75
     }
     output: {
-      items: ["blue-personnel/1"]
+      items: ["personnel-blue/1"]
       liquids: []
       power: 0
     }
@@ -66,7 +66,7 @@ jsonRecipes: [
       power: 1
     }
     output: {
-      items: ["red-personnel/1"]
+      items: ["personnel-red/1"]
       liquids: []
       power: 0
     }
@@ -85,7 +85,7 @@ jsonRecipes: [
       power: 1
     }
     output: {
-      items: ["green-personnel/1"]
+      items: ["personnel-green/1"]
       liquids: []
       power: 0
     }
