@@ -1,0 +1,99 @@
+type: MultiCrafter
+name: "Academy"
+description: "Trains and prepares personnel for service in UEG military units and vehicles."
+details: "Prove to yourself that you have the strenght, and the courage: to be free... JOIN THE ARMED FORCES!"
+size: 5
+health: 1800
+itemCapacity: 30
+craftTime: 120
+hasItems: true
+hasPower: true
+category: units
+
+drawer: {
+  type: DrawDefault
+}
+
+jsonRecipes: [
+  {
+    name: black-personnel
+    localizedName: "Black Personnel"
+    craftTime: 660
+    input: {
+      items: [
+        "copper/15"
+        "beryllium/10"
+      ]
+      liquids: []
+      power: 0.5
+    }
+    output: {
+      items: ["black-personnel/1"]
+      liquids: []
+      power: 0
+    }
+  }
+  {
+    name: blue-personnel
+    localizedName: "Blue Personnel"
+    craftTime: 840
+    input: {
+      items: [
+        "titanium/8"
+        "graphite/15"
+        "silicon/2"
+      ]
+      liquids: []
+      power: 0.75
+    }
+    output: {
+      items: ["blue-personnel/1"]
+      liquids: []
+      power: 0
+    }
+  }
+  {
+    name: red-personnel
+    localizedName: "Red Personnel"
+    craftTime: 1080
+    input: {
+      items: [
+        "beryllium/15"
+        "graphite/5"
+        "silicon/10"
+      ]
+      liquids: []
+      power: 1
+    }
+    output: {
+      items: ["red-personnel/1"]
+      liquids: []
+      power: 0
+    }
+  }
+  {
+    name: green-personnel
+    localizedName: "Green Personnel"
+    craftTime: 1080
+    input: {
+      items: [
+        "beryllium/10"
+        "tungsten/10"
+        "silicon/3"
+      ]
+      liquids: []
+      power: 1
+    }
+    output: {
+      items: ["green-personnel/1"]
+      liquids: []
+      power: 0
+    }
+  }
+]
+
+requirements: [
+  "copper/200"
+  "graphite/80"
+  "silicon/60"
+]
