@@ -1,0 +1,23 @@
+type: hover
+health: 1200
+description: "An advanced engineering hovercraft equipped with a 3D-printing construction system. Trades heavy armor for superior mobility across difficult terrain."
+AiController: BuilderAI
+hovering: true
+canDrown: false
+isEnemy: false
+flying: false
+buildSpeed: 1.6
+accel: 0.8
+drag: 0.7
+speed: 1.1
+rotateSpeed: 3.0
+mineWalls: true
+mineFloor: true
+mineSpeed: 4
+mineTier: 3
+armor: 6
+hitSize: 18
+size: 3.5
+itemCapacity: 160
+outlineColor: "37383d"
+  
