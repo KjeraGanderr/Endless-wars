@@ -9,7 +9,7 @@ itemCapacity: 12000
 category: effect
 unitCapModifier: 32
 unitType: engineering-hovertank
-
+solid: false
 buildVisibility: shown
 alwaysUnlocked: false
 
