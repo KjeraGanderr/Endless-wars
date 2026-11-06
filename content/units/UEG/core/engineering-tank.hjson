@@ -18,3 +18,43 @@ hitSize: 15
 size: 2
 itemCapacity: 60
 outlineColor: "37383d"
+
+weapons: [
+  {
+    name: build-weapon
+    type: BuildWeapon
+    x: 0
+    y: 0
+    rotate: true
+    rotateSpeed: 7
+    shootY: 3
+  }
+  {
+    name: kord-hmg
+    x: 3
+    y: 1
+    mirror: false
+    rotate: true
+    rotateSpeed: 80
+    reload: 8
+    shootY: 3
+    recoil: 0.3
+    shoot: {
+      shots: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      speed: 7.5
+      damage: 7
+      lifetime: 16
+      width: 3
+      height: 5
+      collidesAir: true
+      collidesGround: true
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitEffect: hitBulletSmall
+      despawnEffect: hitBulletSmall
+    }
+  }
+]
