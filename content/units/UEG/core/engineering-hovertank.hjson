@@ -1,5 +1,5 @@
 type: hover
-health: 1200
+health: 2500
 description: "An advanced engineering hovercraft equipped with a 3D-printing construction system. Trades heavy armor for superior mobility across difficult terrain."
 AiController: BuilderAI
 hovering: true
@@ -20,4 +20,43 @@ hitSize: 18
 size: 3.5
 itemCapacity: 160
 outlineColor: "37383d"
-  
+
+weapons: [
+  {
+    name: build-weapon
+    type: BuildWeapon
+    x: 0
+    y: 0
+    rotate: true
+    rotateSpeed: 7
+    shootY: 3
+  }
+  {
+    name: engineering-hovertank-hmg
+    x: 4
+    y: 0
+    mirror: false
+    rotate: true
+    rotateSpeed: 80
+    reload: 8
+    shootY: 3
+    recoil: 0.3
+    shoot: {
+      shots: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      speed: 7.5
+      damage: 7
+      lifetime: 16
+      width: 3
+      height: 5
+      collidesAir: true
+      collidesGround: true
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      hitEffect: hitBulletSmall
+      despawnEffect: hitBulletSmall
+    }
+  }
+]
