@@ -8,7 +8,12 @@ buildSpeed: 1.2
 accel: 0.035
 drag: 0.12
 speed: 1.3
+omniMovement: false
+rotateMoveFirst: true
 rotateSpeed: 1.5
+treadRects: [
+  [  -50, -50,   0,   143   ],
+  [   50, -50,   0,   143   ] 
 mineWalls: false
 mineFloor: false
 mineSpeed: 0
