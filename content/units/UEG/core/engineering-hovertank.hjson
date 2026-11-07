@@ -8,7 +8,7 @@ isEnemy: false
 flying: false
 buildSpeed: 1.6
 accel: 0.8
-drag: 0.7
+drag: 1.1
 speed: 1.1
 rotateSpeed: 3.0
 mineWalls: true
