@@ -4,10 +4,10 @@ description: "A heavy engineering vehicle equipped with a 3D-printing constructi
 controller: BuilderAI
 isEnemy: false
 flying: false
-buildSpeed: 1.2
-accel: 0.035
+buildSpeed: 1.4
+accel: 0.7
 drag: 0.12
-speed: 0.85
+speed: 1.2
 rotateSpeed: 1.5
 omniMovement: false
 rotateMoveFirst: true
