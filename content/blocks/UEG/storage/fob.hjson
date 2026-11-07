@@ -9,7 +9,7 @@ itemCapacity: 6000
 category: effect
 unitCapModifier: 16
 unitType: engineering-tank
-
+solid: false
 buildVisibility: shown
 alwaysUnlocked: false
 
