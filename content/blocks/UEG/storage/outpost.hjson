@@ -12,7 +12,7 @@ unitType: engineering-ifv
 
 buildVisibility: shown
 alwaysUnlocked: true
-
+solid: false
 research: {
     root: true
     name: "Theater Of Ops"
