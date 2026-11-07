@@ -9,6 +9,11 @@ accel: 0.035
 drag: 0.12
 speed: 0.85
 rotateSpeed: 1.5
+omniMovement: false
+rotateMoveFirst: true
+treadRects: [
+  [  -50, -50,   0,   143   ],
+  [   50, -50,   0,   143   ] 
 mineWalls: false
 mineFloor: false
 mineSpeed: 0
