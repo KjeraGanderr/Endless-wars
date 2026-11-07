@@ -6,11 +6,12 @@ hovering: true
 canDrown: false
 isEnemy: false
 flying: false
-buildSpeed: 1.6
-accel: 0.8
+buildSpeed: 3
+accel: 1
 drag: 1.1
-speed: 1.1
+speed: 1.6
 rotateSpeed: 3.0
+omniMovement: true
 mineWalls: true
 mineFloor: true
 mineSpeed: 4
