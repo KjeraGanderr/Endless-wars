@@ -30,7 +30,7 @@ weapons: [
     shootY: 3
   }
   {
-    name: kord-hmg
+    name: engineering-tank-hmg
     x: 3
     y: 1
     mirror: false
@@ -45,7 +45,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 7.5
-      damage: 7
+      damage: 12
       lifetime: 16
       width: 3
       height: 5
