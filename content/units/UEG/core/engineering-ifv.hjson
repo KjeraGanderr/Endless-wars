@@ -30,7 +30,7 @@ weapons: [
     shootY: 3
   }
   {
-    name: m2-hmg
+    name: engineering-ifv-hmg
     x: 3
     y: 1
     mirror: false
@@ -45,8 +45,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 7.5
-      damage: 7
-      lifetime: 16
+      damage: 12
+      lifetime: 12
       width: 3
       height: 5
       collidesAir: true
