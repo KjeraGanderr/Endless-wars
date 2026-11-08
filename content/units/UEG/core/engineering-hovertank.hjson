@@ -22,6 +22,28 @@ hitSize: 14
 size: 3.5
 itemCapacity: 160
 outlineColor: "32323a"
+parts: [
+   {
+    type: HoverPart
+    x: 0
+    y: -10
+    color: 75ebff
+    radius: 20
+    layer: 50
+    phase: 90
+    stroke: 8
+   },
+   {
+   type: HoverPart
+    x: 0
+    y: 10
+    color: 75ebff
+    radius: 20
+    layer: 50
+    phase: 90
+    stroke: 8
+   }
+]
 
 weapons: [
   {
