@@ -2,13 +2,13 @@ type: hover
 health: 3600
 name: "Engineering Hovertank"
 description: "An advanced engineering hovercraft equipped with a 3D-printing construction system. Trades heavy armor for superior mobility across difficult terrain."
-AiController: BuilderAI
+controller: BuilderAI
 hovering: true
 canDrown: false
 isEnemy: false
 flying: false
 buildSpeed: 3
-accel: 0.76
+accel: 0.4
 drag: 0.8
 speed: 1.3
 rotateSpeed: 1.8
