@@ -8,8 +8,8 @@ canDrown: false
 isEnemy: false
 flying: false
 buildSpeed: 3
-accel: 0.085
-drag: 0.025
+accel: 0.065
+drag: 0.02
 speed: 1.3
 rotateSpeed: 2.3
 rotateToBuilding: false
