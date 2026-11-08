@@ -1,15 +1,15 @@
 type: tank
 name: Leopard 2A8
 description: "A mobility-focused MBT. Counts with high firepower and mobility alongside active protection systems."
-health: 100
-armor: 11
+health: 3500
+armor: 6
 speed: 0.76
 accel: 0.045
 drag: 0.12
 rotateSpeed: 1.55
 hitSize: 17
 itemCapacity: 30
-outlineColor: "37383d"
+outlineColor: "32323a"
 isEnemy: false
 flying: false
 research: mechanized-factory
