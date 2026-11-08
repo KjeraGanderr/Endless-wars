@@ -8,10 +8,10 @@ canDrown: false
 isEnemy: false
 flying: false
 buildSpeed: 3
-accel: 0.05
+accel: 0.38
 drag: 0.12
 speed: 1.3
-rotateSpeed: 1.8
+rotateSpeed: 1.4
 rotateToBuilding: false
 mineWalls: true
 mineFloor: true
@@ -28,7 +28,7 @@ parts: [
     x: 0
     y: 0
     color: 75ebff
-    radius: 16
+    radius: 27
     layer: 50
     phase: 90
     stroke: 8
