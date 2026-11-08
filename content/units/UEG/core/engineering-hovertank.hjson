@@ -32,6 +32,7 @@ weapons: [
     rotate: true
     rotateSpeed: 7
     shootY: 3
+    mirror:false
   }
   {
     name: 30mmrws
