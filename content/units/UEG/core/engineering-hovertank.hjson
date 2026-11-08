@@ -9,10 +9,10 @@ isEnemy: false
 flying: false
 buildSpeed: 3
 accel: 0.76
-drag: 1.1
+drag: 0.8
 speed: 1.3
-rotateSpeed: 2.8
-omniMovement: false
+rotateSpeed: 1.8
+
 mineWalls: true
 mineFloor: true
 mineSpeed: 4
