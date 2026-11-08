@@ -11,7 +11,7 @@ omniMovement: false
 rotateMoveFirst: true
 hitSize: 17
 itemCapacity: 30
-outlineColor: "37383d"
+outlineColor: "32323a"
 payloadCapacity: 256
 treadEffectChance: 0.25
 isEnemy: false
