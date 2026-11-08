@@ -1,15 +1,15 @@
 type: tank
 name: Challenger 3
 description: "A protection focused MBT, offering the maximum armor, while sacrificing speed."
-health: 2500
-armor: 23
+health: 6300
+armor: 17
 speed: 0.55
 accel: 0.035
 drag: 0.12
 rotateSpeed: 1.25
 hitSize: 17
 itemCapacity: 30
-outlineColor: "37383d"
+outlineColor: "32323a"
 isEnemy: false
 flying: false
 research: mechanized-factory
