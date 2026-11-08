@@ -1,5 +1,6 @@
 type: hover
 health: 3600
+name: "Engineering Hovertank"
 description: "An advanced engineering hovercraft equipped with a 3D-printing construction system. Trades heavy armor for superior mobility across difficult terrain."
 AiController: BuilderAI
 hovering: true
@@ -24,7 +25,7 @@ outlineColor: "37383d"
 
 weapons: [
   {
-    name: build-weapon
+    name: 3d-printer-big
     type: BuildWeapon
     x: 0
     y: 0
