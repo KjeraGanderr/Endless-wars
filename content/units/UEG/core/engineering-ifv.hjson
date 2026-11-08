@@ -23,7 +23,7 @@ armor: 2
 hitSize: 15
 size: 2
 itemCapacity: 60
-outlineColor: "37383d"
+outlineColor: "32323a"
 
 weapons: [
   {
