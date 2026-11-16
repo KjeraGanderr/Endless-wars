@@ -11,7 +11,7 @@ category: crafting
 research: pneumatic-water-pump
 
 drawer: {
-  type: DrawDefault
+  type: DrawRecipe
 }
 
 jsonRecipes: [
@@ -19,6 +19,10 @@ jsonRecipes: [
     name: orange-brine-filtration
     localizedName: "Orange Brine Filtration"
     craftTime: 60
+    drawer: {
+      type: DrawRegion
+      suffix: "-orange"
+    }
     input: {
       items: []
       liquids: ["orange-brine/0.3"]
@@ -34,6 +38,10 @@ jsonRecipes: [
     name: cyan-brine-filtration
     localizedName: "Cyan Brine Filtration"
     craftTime: 60
+    drawer: {
+      type: DrawRegion
+      suffix: "-cyan"
+    }
     input: {
       items: []
       liquids: ["cyan-brine/0.5"]
@@ -49,6 +57,10 @@ jsonRecipes: [
     name: purple-brine-filtration
     localizedName: "Purple Brine Filtration"
     craftTime: 60
+    drawer: {
+      type: DrawRegion
+      suffix: "-purple"
+    }
     input: {
       items: []
       liquids: ["purple-brine/0.25"]
