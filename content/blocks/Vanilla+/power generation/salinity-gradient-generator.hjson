@@ -5,35 +5,29 @@
   type: MultiCrafter
   size: 3
   health: 420
-
   hasLiquids: true
   consumesPower: false
   liquidCapacity: 30
-
   category: power
   buildVisibility: shown
-
   requirements: [
     beryllium/30
     titanium/100
     lead/60
   ]
-
   research: pneumatic-water-pump
-
   autoSelectRecipe: false
-
   drawer: {
-    type: DrawMulti
-    drawers: [
-      {
-        type: DrawRecipe
-      }
-      {
-        type: DrawDefault
-      }
-    ]
-  }
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRecipe
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 
   jsonRecipes: [
     {
@@ -41,33 +35,59 @@
       localizedName: "Cyan Brine"
       craftTime: 60
       unlocked: true
-
       input: {
         liquids: [
           cyan-brine/0.34
           water/0.3162
         ]
       }
-
       output: {
         power: 2.7
       }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidRegion
+      drawLiquid: water
+      suffix: "-water"
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: cyan-brine
+      suffix: "-brine"
+    }
+  ]
+}
     }
     {
       name: orange-brine
       localizedName: "Orange Brine"
       craftTime: 60
       unlocked: true
-
       input: {
         liquids: [
           orange-brine/0.3162
           water/0.3162
         ]
       }
-
       output: {
         power: 2.5
+      drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidRegion
+      drawLiquid: water
+      suffix: "-water"
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: orange-brine
+      suffix: "-brine"
+    }
+  ]
+}
       }
     }
     {
@@ -75,17 +95,30 @@
       localizedName: "Purple Brine"
       craftTime: 60
       unlocked: true
-
       input: {
         liquids: [
           purple-brine/0.25
           water/0.3162
         ]
       }
-
       output: {
         power: 2.5
       }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawLiquidRegion
+      drawLiquid: water
+      suffix: "-water"
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: purple-brine
+      suffix: "-brine"
+    }
+  ]
+}
     }
   ]
 }
