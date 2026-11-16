@@ -1,7 +1,7 @@
 Type: Liquid
 name: Orange Brine
 description: "A mineral-rich brine used in desalination, chemical processing and osmotic power generation."
-color: bab7e8
+color: 76645d
 gas: false
 temperature: 0.03
 research: dark-moon
