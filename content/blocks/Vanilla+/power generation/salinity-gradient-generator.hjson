@@ -1,33 +1,42 @@
 {
   name: "Salinity Gradient Osmosis Generator"
   description: "Generates electricity by using the osmotic pressure difference between water and brine."
- details: "The first MultiCrafter to be coded. Amazing, isn't it? Yes, it is! it makes my life much easier in terms of facilitating base logistics and avoiding block redundancy for each to use one recipe, it also makes life easier for you for the same motives and that clicking this block deploys a pretty menu i did not have to get through the pain of java-coding for it to work. It is truly a worthy library.   However, there is one thing i'd like to do:   What's possibly the MEANING of THIS? The block DOES NOT assume that without an explicit power consumption value, it does not use power. instead, it CRASHES. It took [red]18 C O M M I T S[white] to fix, like seriously WHAT THE HELL? I will make sure this goes not unnoticed, i will make sure the error does not go unnoticed or see this generator burn to ashes right in front of me by my own hand. Which, i already have since if you take a look at the commits you can see this generator was deleted and re-added. it also CORRUPTED A CAMPAIGN MAP which i had to rescue via said measure. [red] FUCK YOU!   [white] I still think it's an awesome lib btw :3"
+  details: "The first MultiCrafter to be coded. Amazing, isn't it? Yes, it is! it makes my life much easier in terms of facilitating base logistics and avoiding block redundancy for each to use one recipe, it also makes life easier for you for the same motives and that clicking this block deploys a pretty menu i did not have to get through the pain of java-coding for it to work. It is truly a worthy library.   However, there is one thing i'd like to do:   What's possibly the MEANING of THIS? The block DOES NOT assume that without an explicit power consumption value, it does not use power. instead, it CRASHES. It took [red]18 C O M M I T S[white] to fix, like seriously WHAT THE HELL? I will make sure this goes not unnoticed, i will make sure the error does not go unnoticed or see this generator burn to ashes right in front of me by my own hand. Which, i already have since if you take a look at the commits you can see this generator was deleted and re-added. it also CORRUPTED A CAMPAIGN MAP which i had to rescue via said measure. [red] FUCK YOU!   [white] I still think it's an awesome lib btw :3"
+
   type: MultiCrafter
   size: 3
   health: 420
+
   hasLiquids: true
   consumesPower: false
   liquidCapacity: 30
+
   category: power
   buildVisibility: shown
+
   requirements: [
     beryllium/30
     titanium/100
     lead/60
   ]
+
   research: pneumatic-water-pump
   autoSelectRecipe: false
+
   drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRecipe
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      }
+      {
+        type: DrawRecipe
+      }
+       {
+        type: DrawTop
+      }
+    ]
+  }
 
   jsonRecipes: [
     {
@@ -35,90 +44,113 @@
       localizedName: "Cyan Brine"
       craftTime: 60
       unlocked: true
+
       input: {
         liquids: [
           cyan-brine/0.34
           water/0.3162
         ]
       }
+
       output: {
         power: 2.7
       }
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawLiquidRegion
-      drawLiquid: water
-      suffix: "-water"
+
+      drawer: {
+        type: DrawMulti
+        drawers: [
+          {
+            type: DrawRegion
+            suffix: "-cyan"
+          }
+          {
+            type: DrawLiquidRegion
+            drawLiquid: water
+            suffix: "-water"
+          }
+          {
+            type: DrawLiquidRegion
+            drawLiquid: cyan-brine
+            suffix: "-brine"
+          }
+        ]
+      }
     }
-    {
-      type: DrawLiquidRegion
-      drawLiquid: cyan-brine
-      suffix: "-brine"
-    }
-  ]
-}
-    }
+
     {
       name: orange-brine
       localizedName: "Orange Brine"
       craftTime: 60
       unlocked: true
+
       input: {
         liquids: [
           orange-brine/0.3162
           water/0.3162
         ]
       }
+
       output: {
         power: 2.5
+      }
+
       drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawLiquidRegion
-      drawLiquid: water
-      suffix: "-water"
-    }
-    {
-      type: DrawLiquidRegion
-      drawLiquid: orange-brine
-      suffix: "-brine"
-    }
-  ]
-}
+        type: DrawMulti
+        drawers: [
+          {
+            type: DrawRegion
+            suffix: "-orange"
+          }
+          {
+            type: DrawLiquidRegion
+            drawLiquid: water
+            suffix: "-water"
+          }
+          {
+            type: DrawLiquidRegion
+            drawLiquid: orange-brine
+            suffix: "-brine"
+          }
+        ]
       }
     }
+
     {
       name: purple-brine
       localizedName: "Purple Brine"
       craftTime: 60
       unlocked: true
+
       input: {
         liquids: [
           purple-brine/0.25
           water/0.3162
         ]
       }
+
       output: {
         power: 2.5
       }
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawLiquidRegion
-      drawLiquid: water
-      suffix: "-water"
-    }
-    {
-      type: DrawLiquidRegion
-      drawLiquid: purple-brine
-      suffix: "-brine"
-    }
-  ]
-}
+
+      drawer: {
+        type: DrawMulti
+        drawers: [
+          {
+            type: DrawRegion
+            suffix: "-purple"
+          }
+          {
+            type: DrawLiquidRegion
+            drawLiquid: water
+            suffix: "-water"
+          }
+          {
+            type: DrawLiquidRegion
+            drawLiquid: purple-brine
+            suffix: "-brine"
+          }
+        ]
+      }
     }
   ]
 }
