@@ -27,7 +27,8 @@
   type: DrawMulti
   drawers: [
     {
-      type: DrawBottom
+      type: DrawRegion
+      suffix: "-bottom"
     }
     {
       type: DrawDefault
