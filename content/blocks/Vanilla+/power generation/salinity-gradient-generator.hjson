@@ -36,7 +36,8 @@
       type: DrawRecipe
     }
     {
-      type: DrawTop
+      type: DrawRegion
+      suffix: "-top"
     }
   ]
 }
