@@ -24,22 +24,22 @@
   autoSelectRecipe: false
 
   drawer: {
-    type: DrawMulti
-    drawers: [
-      {
-        type: DrawDefault
-      }
-      {
-        type: DrawRecipe
-      }
-       {
-        type: DrawTop
-       }
-      {
-       type: DrawBottom
-      }
-    ]
-  }
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawBottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRecipe
+    }
+    {
+      type: DrawTop
+    }
+  ]
+}
 
   jsonRecipes: [
     {
