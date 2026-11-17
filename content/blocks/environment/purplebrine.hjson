@@ -3,6 +3,7 @@ type: Floor
 isLiquid: true
 variants: 3
 solid: false
+cacheLayer: water
 placeableOn: false
 liquidDrop: purple-brine
 drownTime: 180
