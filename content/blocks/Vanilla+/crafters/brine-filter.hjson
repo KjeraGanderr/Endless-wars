@@ -11,7 +11,15 @@ category: crafting
 research: pneumatic-water-pump
 
 drawer: {
-  type: DrawRecipe
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRecipe
+    }
+  ]
 }
 
 jsonRecipes: [
