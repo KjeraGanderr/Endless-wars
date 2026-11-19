@@ -36,3 +36,54 @@ UnitTypes.spiroct.health = 3000;
 UnitTypes.alpha.health = 400;
 UnitTypes.beta.health = 600;
 UnitTypes.gamma.health = 800;
+
+// ==========================================
+// Mixed Tech Rebalance - Unit Damage
+// ==========================================
+
+function setBulletDamage(weapon, damage) {
+    if (weapon == null || weapon.bullet == null) return;
+    weapon.bullet.damage = damage;
+}
+
+function setUnitWeaponDamage(unit, damage) {
+    if (unit == null || unit.weapons == null) return;
+
+    unit.weapons.each(weapon => {
+        setBulletDamage(weapon, damage);
+    });
+}
+
+function setUnitWeaponDamageByIndex(unit, index, damage) {
+    if (unit == null || unit.weapons == null) return;
+    if (index < 0 || index >= unit.weapons.size) return;
+
+    setBulletDamage(unit.weapons.get(index), damage);
+}
+
+// --- Mech tree ---
+
+setUnitWeaponDamage(UnitTypes.dagger, 15.0);
+setUnitWeaponDamage(UnitTypes.mace, 90.0);
+setUnitWeaponDamage(UnitTypes.fortress, 150.0);
+
+// --- Purple spider tree ---
+
+const crawler = UnitTypes.crawler;
+if (crawler != null && crawler.weapons.size > 0) {
+    const weapon = crawler.weapons.get(0);
+
+    if (weapon.bullet != null) {
+        weapon.bullet.splashDamage = 150.0;
+    }
+}
+
+setUnitWeaponDamage(UnitTypes.atrax, 45.0);
+setUnitWeaponDamageByIndex(UnitTypes.spiroct, 0, 34.5);
+setUnitWeaponDamageByIndex(UnitTypes.spiroct, 1, 27.0);
+
+// --- Core units ---
+
+setUnitWeaponDamage(UnitTypes.alpha, 13.75);
+setUnitWeaponDamage(UnitTypes.beta, 13.75);
+setUnitWeaponDamage(UnitTypes.gamma, 13.75);
