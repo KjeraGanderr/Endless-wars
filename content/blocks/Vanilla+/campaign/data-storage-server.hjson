@@ -7,6 +7,7 @@ memoryCapacity: 1024
 category: logic
 buildVisibility: campaignOnly
 researchCostMultiplier: 2.5
+research: supercomputer
 
 requirements: [
   "beryllium/1200"
