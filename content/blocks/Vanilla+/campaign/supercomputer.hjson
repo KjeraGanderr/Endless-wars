@@ -16,6 +16,7 @@ consumes: {
 category: logic
 buildVisibility: campaignOnly
 researchCostMultiplier: 2.5
+research: esa
 
 requirements: [
   "beryllium/250"
