@@ -14,7 +14,7 @@ consumes: {
 }
 
 category: effect
-buildVisibility: campaignOnly
+buildVisibility: shown
 researchCostMultiplier: 2.5
 research: salinity-gradient-generator 
 
