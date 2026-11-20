@@ -1,0 +1,25 @@
+type: Radar
+name: "Electronically Scanned Array"
+description: "An advanced radar detection system that can provide 360-degrees of detection over long distances with the use of 4 rotatory radar units."
+size: 3
+health: 1600
+
+fogRadius: 60
+discoveryTime: 600
+rotateSpeed: 1
+
+hasPower: true
+consumes: {
+  power: 5
+}
+
+category: effect
+buildVisibility: campaignOnly
+researchCostMultiplier: 2.5
+
+requirements: [
+  "beryllium/200"
+  "tungsten/150"
+  "silicon/250"
+  "surge-alloy/60"
+]
