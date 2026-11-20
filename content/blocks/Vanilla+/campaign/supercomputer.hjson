@@ -14,7 +14,7 @@ consumes: {
 }
 
 category: logic
-buildVisibility: campaignOnly
+buildVisibility: shown 
 researchCostMultiplier: 2.5
 research: esa
 
