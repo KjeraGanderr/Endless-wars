@@ -5,7 +5,7 @@ size: 6
 health: 7200
 memoryCapacity: 1024
 category: logic
-buildVisibility: campaignOnly
+buildVisibility: shown
 researchCostMultiplier: 2.5
 research: supercomputer
 
