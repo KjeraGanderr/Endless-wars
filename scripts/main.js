@@ -105,5 +105,5 @@ const vela = UnitTypes.vela;
 if (vela != null && vela.weapons.size > 0) {
     setContinuousLaserTotalDamage(vela.weapons.get(0), 600.0);
 }
-setUnitWeaponDamage(UnitTypes.pulsar, 40.0);.
+setUnitWeaponDamage(UnitTypes.pulsar, 40.0);
 setUnitWeaponDamage(UnitTypes.quasar, 120.0);
