@@ -23,5 +23,5 @@
     silicon/20
   ]
   category: power
-  research: brine-gradient-generator
+  research: salinity-gradient-generator 
 }
