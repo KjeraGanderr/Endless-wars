@@ -20,7 +20,7 @@
     lead/60
   ]
 
-  research: pneumatic-water-pump
+  research: brine-filter
   autoSelectRecipe: false
 
   drawer: {
