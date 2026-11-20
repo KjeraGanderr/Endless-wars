@@ -21,8 +21,8 @@ Events.run(Trigger.draw, () => {
 UnitTypes.dagger.health = 650;
 UnitTypes.mace.health = 1800;
 UnitTypes.fortress.health = 4000;
-UnitTypes.zenith.health = 2000;
-UnitTypes.zenith.armor = 3;
+UnitTypes.zenith.health = 3100;
+UnitTypes.zenith.armor = 7;
 UnitTypes.risso.health = 750;
 UnitTypes.mono.health = 300;
 UnitTypes.poly.health = 650;
@@ -67,6 +67,9 @@ setUnitWeaponDamage(UnitTypes.dagger, 15.0);
 setUnitWeaponDamage(UnitTypes.mace, 90.0);
 setUnitWeaponDamage(UnitTypes.fortress, 150.0);
 
+
+// --- green mech tree ---
+
 // --- Purple spider tree ---
 
 const crawler = UnitTypes.crawler;
@@ -84,6 +87,23 @@ setUnitWeaponDamageByIndex(UnitTypes.spiroct, 1, 27.0);
 
 // --- Core units ---
 
-setUnitWeaponDamage(UnitTypes.alpha, 13.75);
-setUnitWeaponDamage(UnitTypes.beta, 13.75);
-setUnitWeaponDamage(UnitTypes.gamma, 13.75);
+setUnitWeaponDamage(UnitTypes.alpha, 15.75);
+setUnitWeaponDamage(UnitTypes.beta, 15.75);
+setUnitWeaponDamage(UnitTypes.gamma, 15.75);
+
+// --- Function that makes continuous damage changes possible ----
+function setContinuousLaserTotalDamage(weapon, totalDamage) {
+    if (weapon == null || weapon.bullet == null) return;
+    const bullet = weapon.bullet;
+    if (bullet.damageInterval <= 0 || bullet.lifetime <= 0) return;
+    const damageTicks = bullet.lifetime / bullet.damageInterval;
+    bullet.damage = totalDamage / damageTicks;
+}
+
+const vela = UnitTypes.vela;
+
+if (vela != null && vela.weapons.size > 0) {
+    setContinuousLaserTotalDamage(vela.weapons.get(0), 600.0);
+}
+setUnitWeaponDamage(UnitTypes.pulsar, 40.0);.
+setUnitWeaponDamage(UnitTypes.quasar, 120.0);
