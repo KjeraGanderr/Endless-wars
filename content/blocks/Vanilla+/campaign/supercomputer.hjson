@@ -1,0 +1,26 @@
+type: LogicBlock
+name: "Supercomputer"
+description: "An advanced computational system capable of executing complex instructions and coordinating large technological networks."
+size: 3
+health: 1800
+
+instructionsPerTick: 30
+maxInstructionScale: 5
+range: 480
+
+hasPower: true
+consumes: {
+  power: 8
+}
+
+category: logic
+buildVisibility: campaignOnly
+researchCostMultiplier: 2.5
+
+requirements: [
+  "beryllium/250"
+  "lead/200"
+  "silicon/300"
+  "oxide/100"
+  "surge-alloy/80"
+]
