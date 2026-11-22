@@ -1,0 +1,38 @@
+
+type: flying
+name: "Aria"
+description: "An aerial support unit capable of damaging enemies and repairing allied units."
+health: 800
+controller: DefenderAI
+isEnemy: false
+flying: true
+
+accel: 0.10
+drag: 0.08
+speed: 2.7
+rotateSpeed: 8.5
+armor: 1
+hitSize: 9
+itemCapacity: 0
+
+outlineColor: "2d2f39"
+
+abilities: [
+  {
+    type: EnergyFieldAbility
+    x: 0
+    y: 0
+    damage: 22
+    reload: 25
+    range: 60
+    healPercent: 2
+    status: none
+    effectRadius: 6
+    sectors: 5
+    rotateSpeed: 10
+    maxTargets: 3
+    color: "92ff7e"
+  }
+]
+
+research: chime
