@@ -17,7 +17,9 @@ armor: 3
 hitSize: 16
 itemCapacity: 120
 
-payloadCapacity: 36
+
+
+payloadCapacity: 2304
 pickupUnits: true
 allowedInPayloads: true
 
