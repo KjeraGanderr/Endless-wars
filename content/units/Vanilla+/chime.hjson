@@ -22,7 +22,7 @@ weapons: [
   {
     x: 0
     y: 0
-    reload: 45
+    reload: 25
     shootY: 0
     rotate: true
     shootCone: 30
@@ -30,8 +30,8 @@ weapons: [
     bullet: {
       type: LightningBulletType
       damage: 11
-      lightningLength: 8
-      lightningLengthRand: 0
+      lightningLength: 20
+      lightningLengthRand: 3
       lightningDamage: 11
       lightningColor: "92ff7e"
       collidesAir: true
