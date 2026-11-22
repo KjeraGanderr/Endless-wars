@@ -46,6 +46,7 @@ weapons: [
     collidesGround: true
     healPercent: 5
     healColor: "92ff7e"
+    hitEffect: none
      }
     }
   }
