@@ -34,7 +34,6 @@ weapons: [
       lightningLengthRand: 0
       lightningDamage: 11
       lightningColor: "92ff7e"
-      lightningType: 0
       collidesAir: true
       collidesGround: true
       healPercent: 2
