@@ -2,20 +2,17 @@
 type: flying
 name: "Chime"
 description: "A light aerial support unit equipped with an electrical repair weapon."
-
 health: 400
 controller: DefenderAI
 isEnemy: false
 flying: true
-
 accel: 0.09
 drag: 0.08
 speed: 2.4
 rotateSpeed: 9
-armor: 1
+armor: 0
 hitSize: 7
 itemCapacity: 30
-
 outlineColor: "2d2f39"
 
 weapons: [
@@ -30,14 +27,14 @@ weapons: [
     bullet: {
       type: LightningBulletType
       damage: 11
-      lightningLength: 20
+      lightningLength: 18
       lightningLengthRand: 3
       lightningDamage: 11
       lightningColor: "92ff7e"
       collidesAir: true
       collidesGround: true
       collidesTeam: true
-      healPercent: 100
+      healPercent: 6
       lightningType: {
     type: BulletType
     speed: 0.0001
@@ -49,7 +46,7 @@ weapons: [
     collidesGround: true
     healPercent: 5
     healColor: "92ff7e"
-  }
+     }
     }
   }
 ]
