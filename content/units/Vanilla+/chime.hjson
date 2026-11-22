@@ -36,6 +36,7 @@ weapons: [
       lightningColor: "92ff7e"
       collidesAir: true
       collidesGround: true
+      collidesTeam: true
       healPercent: 100
     }
   }
