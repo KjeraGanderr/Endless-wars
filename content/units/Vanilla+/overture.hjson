@@ -36,8 +36,8 @@ weapons: [
   {
     name: erekir-heal-beam
     type: RepairBeamWeapon
-    x: 9.5
-    y: 17
+    x: 9
+    y: 19
     mirror: true
     rotate: true
     layerOffset: -1
