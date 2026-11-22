@@ -1,11 +1,11 @@
 name: "Overture"
 description: "A heavy support unit specialized in construction, mining and repair."
-
 type: flying
 controller: BuilderAI
 isEnemy: false
 flying: true
 lowAltitude: false
+outlineColor: "2d2f39"
 health: 7000
 armor: 8
 speed: 1.1
@@ -22,7 +22,7 @@ drawBuildBeam: false
 itemCapacity: 100
 weapons: [
   {
-    name: "green-build-weapon"
+    name: green-build-weapon
     type: BuildWeapon
     x: 10.5
     y: 15
@@ -30,17 +30,18 @@ weapons: [
     rotateSpeed: 7
     shootY: 9
     mirror: true
-    layerOffset: -0.001
+    layerOffset: -1
   }
 
   {
-    name: "erekir-heal-beam"
+    name: erekir-heal-beam
     type: RepairBeamWeapon
     x: 9.5
     y: 16.75
     mirror: true
     rotate: true
-    shootY: 0
+    layerOffset: -1
+    shootY: 2
     reload: 20
     beamWidth: 0.7
     repairSpeed: 1.8
