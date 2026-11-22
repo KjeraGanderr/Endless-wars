@@ -1,0 +1,36 @@
+
+type: flying
+name: "Nocturne"
+description: "A heavy aerial transport unit capable of carrying units and structures."
+
+health: 2000
+controller: FlyingAI
+isEnemy: false
+flying: true
+
+accel: 0.08
+drag: 0.08
+speed: 2.8
+rotateSpeed: 6
+armor: 3
+
+hitSize: 16
+itemCapacity: 120
+
+payloadCapacity: 36
+pickupUnits: true
+allowedInPayloads: true
+
+outlineColor: "2d2f39"
+
+abilities: [
+  {
+    type: RegenAbility
+    percentAmount: 1
+    regenTime: 60
+  }
+]
+
+weapons: []
+
+research: aria
