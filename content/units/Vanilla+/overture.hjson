@@ -2,7 +2,7 @@ name: "Overture"
 description: "A heavy support unit specialized in construction, mining and repair."
 type: flying
 controller: BuilderAI
-hitSize: 46
+hitSize: 34
 isEnemy: false
 flying: true
 lowAltitude: false
