@@ -1,0 +1,40 @@
+name: "Support Assembler"
+description: "Assembles heavy aerial support units."
+type: UnitAssembler
+health: 4500
+size: 5
+
+areaSize:9
+
+consumes: {
+  power: 4.5
+  liquid: {
+    liquid: nitrogen
+    amount: 0.1667
+  }
+}
+
+droneType: assembly-drone
+dronesCreated: 4
+droneConstructTime: 180
+
+plans: [
+  {
+    unit: overture
+    time: 7200
+    requirements: [
+      chime/6
+      beryllium-wall-large/10
+    ]
+  }
+]
+
+category: units
+
+requirements: [
+  silicon/300
+  thorium/300
+  tungsten/200
+  oxide/100
+  carbide/100
+]
