@@ -26,7 +26,7 @@ weapons: [
   {
     name: green-build-weapon
     type: BuildWeapon
-    x: 13
+    x: 14
     y: 13.5
     rotate: true
     rotateSpeed: 7
@@ -38,7 +38,7 @@ weapons: [
   {
     name: erekir-heal-beam
     type: RepairBeamWeapon
-    x: 9
+    x: 11
     y: 16
     mirror: true
     rotate: true
