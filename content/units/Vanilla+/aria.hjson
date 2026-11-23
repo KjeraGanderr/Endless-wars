@@ -17,8 +17,8 @@ itemCapacity: 35
 outlineColor: "2d2f39"
 mineSpeed: 2
 mineTier: 2
-mineWalls: false
-mineFloor: true
+mineWalls: true
+mineFloor: false
 mineBeamOffset: 2
 abilities: [
   {
