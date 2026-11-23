@@ -66,14 +66,14 @@ weapons: [
     y: 16
     mirror: false
     rotate: true
+    laserColor: "66eaff"
+laserTopColor: "ffffff"
     layerOffset: -1
     shootY: 1
     reload: 20
     beamWidth: 0.7
-    laserColor: ""66eaff""
-    laserTopColor: "baffff"
-    repairSpeed: 4.5
-    fractionRepairSpeed: 0.09
+    repairSpeed: 4.6
+    fractionRepairSpeed: 0.05
     targetUnits: false
     targetBuildings: true
     autoTarget: true
