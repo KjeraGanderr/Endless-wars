@@ -20,7 +20,7 @@ mineTier: 4
 mineWalls: true
 mineFloor: true
 drawBuildBeam: false
-mineBeamOffset: 15
+mineBeamOffset: 19
 itemCapacity: 100
 weapons: [
   {
@@ -50,7 +50,7 @@ weapons: [
     fractionRepairSpeed: 0.03
     targetUnits: true
     targetBuildings: true
-    autoTarget: false
+    autoTarget: true
     controllable: true
     aimDst: 0
     shootCone: 40
