@@ -22,6 +22,7 @@ mineFloor: true
 drawBuildBeam: false
 mineBeamOffset: 19
 itemCapacity: 100
+
 weapons: [
   {
     name: green-build-weapon
@@ -52,12 +53,12 @@ weapons: [
     targetBuildings: false
     autoTarget: true
     controllable: false
-    rotate: true
     bullet: {
-    type: BulletType
-    maxRange: 65
+      type: BulletType
+      maxRange: 65
     }
- 
+  }
+
   {
     name: erekir-heal-beam
     type: RepairBeamWeapon
@@ -69,17 +70,17 @@ weapons: [
     shootY: 1
     reload: 20
     beamWidth: 0.7
+    laserColor: "00ffff"
+    laserTopColor: "baffff"
     repairSpeed: 2.3
     fractionRepairSpeed: 0.05
     targetUnits: false
     targetBuildings: true
     autoTarget: true
     controllable: false
-    rotate: true
     bullet: {
-    type: BulletType
-    maxRange: 65
+      type: BulletType
+      maxRange: 65
     }
   }
- }
 ]
