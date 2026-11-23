@@ -4,13 +4,13 @@ type: UnitAssembler
 health: 4500
 size: 5
 
-areaSize:9
+areaSize: 11
 
 consumes: {
   power: 4.5
   liquid: {
-    liquid: nitrogen
-    amount: 0.1667
+    liquid: cyanogen
+    amount: 0.2
   }
 }
 
@@ -23,8 +23,8 @@ plans: [
     unit: overture
     time: 7200
     requirements: [
-      chime/6
-      beryllium-wall-large/10
+      "chime/6"
+      "tungsten-wall-large/10"
     ]
   }
 ]
