@@ -14,7 +14,11 @@ armor: 0
 hitSize: 7
 itemCapacity: 30
 outlineColor: "2d2f39"
-
+mineSpeed: 1
+mineTier: 2
+mineWalls: false
+mineFloor: true
+mineBeamOffset: 1
 weapons: [
   {
     x: 0
