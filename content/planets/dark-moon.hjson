@@ -4,16 +4,16 @@ parent: sun
 orbitRadius: 83.37
 name: "Dark Moon"
 clearSectorOnLose: false
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLaunchLoadout: true
 allowSectorInvasion: false
 hasAtmosphere: true
 visible: true
 updateLighting: false
 defaultCore: core-bastion
 sectorSize: 1
-radius: 0.7
+radius: 0.8
 bloom: true
 startSector: 16
 iconColor: 8C6AA8
