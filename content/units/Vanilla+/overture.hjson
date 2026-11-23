@@ -47,7 +47,7 @@ weapons: [
     shootY: 1
     reload: 20
     beamWidth: 0.7
-    repairSpeed: 1.8
+    repairSpeed: 3.6
     fractionRepairSpeed: 0.03
     targetUnits: true
     targetBuildings: false
@@ -72,8 +72,8 @@ weapons: [
     beamWidth: 0.7
     laserColor: ""66eaff""
     laserTopColor: "baffff"
-    repairSpeed: 2.3
-    fractionRepairSpeed: 0.05
+    repairSpeed: 4.5
+    fractionRepairSpeed: 0.09
     targetUnits: false
     targetBuildings: true
     autoTarget: true
