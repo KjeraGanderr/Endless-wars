@@ -40,7 +40,7 @@ weapons: [
     type: RepairBeamWeapon
     x: 11
     y: 16
-    mirror: true
+    mirror: false
     rotate: true
     layerOffset: -1
     shootY: 1
@@ -51,13 +51,34 @@ weapons: [
     targetUnits: true
     targetBuildings: false
     autoTarget: true
-    controllable: true
-    aimDst: 0
-    shootCone: 40
-    widthSinMag: 0.11
+    controllable: false
+    rotate: true
     bullet: {
-      type: BulletType
-      maxRange: 65
+    type: BulletType
+    maxRange: 65
+    }
+ 
+  {
+    name: erekir-heal-beam
+    type: RepairBeamWeapon
+    x: -11
+    y: -16
+    mirror: false
+    rotate: true
+    layerOffset: -1
+    shootY: 1
+    reload: 20
+    beamWidth: 0.7
+    repairSpeed: 2.3
+    fractionRepairSpeed: 0.05
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: true
+    controllable: false
+    rotate: true
+    bullet: {
+    type: BulletType
+    maxRange: 65
     }
   }
 ]
