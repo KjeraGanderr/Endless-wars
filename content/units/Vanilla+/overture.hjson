@@ -49,8 +49,8 @@ weapons: [
     repairSpeed: 1.8
     fractionRepairSpeed: 0.03
     targetUnits: true
-    targetBuildings: false
-    autoTarget: false
+    targetBuildings: true
+    autoTarget: true
     controllable: true
     aimDst: 0
     shootCone: 40
