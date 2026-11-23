@@ -81,4 +81,6 @@ weapons: [
     maxRange: 65
     }
   }
+ }
 ]
+
