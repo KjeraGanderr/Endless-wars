@@ -107,3 +107,11 @@ if (vela != null && vela.weapons.size > 0) {
 }
 setUnitWeaponDamage(UnitTypes.pulsar, 40.0);
 setUnitWeaponDamage(UnitTypes.quasar, 120.0);
+
+// ==========================================
+// Support Aircraft Progression
+// ==========================================
+
+Blocks.primeRefabricator.upgrades.add(
+    [UnitTypes.aria, UnitTypes.nocturne]
+);
