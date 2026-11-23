@@ -13,10 +13,13 @@ speed: 2.7
 rotateSpeed: 8.5
 armor: 1
 hitSize: 9
-itemCapacity: 0
-
+itemCapacity: 35
 outlineColor: "2d2f39"
-
+mineSpeed: 2
+mineTier: 2
+mineWalls: false
+mineFloor: true
+mineBeamOffset: 2
 abilities: [
   {
     type: EnergyFieldAbility
