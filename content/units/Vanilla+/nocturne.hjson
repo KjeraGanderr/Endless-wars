@@ -16,7 +16,11 @@ armor: 3
 
 hitSize: 16
 itemCapacity: 120
-
+mineSpeed: 2.5
+mineTier: 3
+mineWalls: true
+mineFloor: false
+mineBeamOffset: 4
 
 
 payloadCapacity: 2304
