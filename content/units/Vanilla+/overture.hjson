@@ -63,14 +63,14 @@ weapons: [
     name: erekir-heal-beam
     type: RepairBeamWeapon
     x: -11
-    y: -16
+    y: 16
     mirror: false
     rotate: true
     layerOffset: -1
     shootY: 1
     reload: 20
     beamWidth: 0.7
-    laserColor: "00ffff"
+    laserColor: ""66eaff""
     laserTopColor: "baffff"
     repairSpeed: 2.3
     fractionRepairSpeed: 0.05
