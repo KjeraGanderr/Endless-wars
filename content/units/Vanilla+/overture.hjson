@@ -39,6 +39,16 @@ weapons: [
   recoil: 2
   shake: 3
   layerOffset: -1
+  chargeEffect: {
+  type: WaveEffect
+  colorFrom: "65caff"
+  colorTo: "ffffff"
+  sizeFrom: 2
+  sizeTo: 9
+  lifetime: 75
+  strokeFrom: 3
+  strokeTo: 0
+}
   bullet: {
     type: LightningBulletType
     damage: 265
