@@ -27,15 +27,15 @@ weapons: [
 {
   name: tesla-beryllium-gun
   x: 6
-  y: 14
-  reload: 200
+  y: 17
+  reload: 120
   chargeTime: 75
   rotate: true
   rotateSpeed: 3
   shootY: 4
   mirror: true
   alternate: false
-  shootCone: 5
+  shootCone: 0
   recoil: 2
   shake: 3
   layerOffset: -1
