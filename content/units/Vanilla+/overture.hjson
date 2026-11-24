@@ -47,6 +47,8 @@ weapons: [
     lightningLengthRand: 3
     lightningDamage: 45
     lightningColor: "65caff"
+    lightningCone: 5
+    lightningAngle: 0
     collidesAir: true
     collidesGround: true
     collidesTeam: false
