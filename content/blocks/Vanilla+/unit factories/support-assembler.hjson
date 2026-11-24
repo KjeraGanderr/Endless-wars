@@ -23,7 +23,7 @@ plans: [
     unit: overture
     time: 7200
     requirements: [
-      "chime/6"
+      "endless-wars-chime/6"
       "tungsten-wall-large/10"
     ]
   }
