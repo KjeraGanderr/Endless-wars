@@ -24,6 +24,36 @@ mineBeamOffset: 19
 itemCapacity: 100
 
 weapons: [
+{
+  name: tesla-beryllium-gun
+  x: 14
+  y: 6
+  reload: 200
+  chargeTime: 75
+  rotate: true
+  rotateSpeed: 3
+  shootY: 4
+  mirror: true
+  alternate: false
+  shootCone: 5
+  recoil: 2
+  shake: 3
+  layerOffset: -1
+  bullet: {
+    type: LightningBulletType
+    damage: 265
+    lightning: 1
+    lightningLength: 24
+    lightningLengthRand: 3
+    lightningDamage: 45
+    lightningColor: "65caff"
+    collidesAir: true
+    collidesGround: true
+    collidesTeam: false
+    buildingDamageMultiplier: 0.8
+    maxRange: 180
+  }
+}
   {
     name: green-build-weapon
     type: BuildWeapon
