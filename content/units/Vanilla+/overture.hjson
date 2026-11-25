@@ -22,8 +22,8 @@ mineFloor: true
 drawBuildBeam: false
 mineBeamOffset: 19
 itemCapacity: 100
-engineOffset: -4
-engineSize: 4.5
+engineOffset: 6
+engineSize: 5
 
 engines: [
   {
@@ -86,8 +86,8 @@ weapons: [
   {
     name: green-build-weapon
     type: BuildWeapon
-    x: 14
-    y: 13
+    x: 12
+    y: 14
     rotate: true
     rotateSpeed: 7
     shootY: 1
