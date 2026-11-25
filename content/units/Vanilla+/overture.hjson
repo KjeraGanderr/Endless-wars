@@ -27,7 +27,7 @@ weapons: [
 {
   name: tesla-beryllium-gun
   x: 6
-  y: 17
+  y: 16.5
   reload: 60
   chargeTime: 75
   rotate: true
@@ -70,7 +70,7 @@ weapons: [
     name: green-build-weapon
     type: BuildWeapon
     x: 14
-    y: 13.5
+    y: 13
     rotate: true
     rotateSpeed: 7
     shootY: 1
