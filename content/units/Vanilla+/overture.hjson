@@ -30,7 +30,7 @@ engines: [
     x: 19.5
     y: -11
     radius: 3
-    rotation: -45
+    rotation: 45
   }
   {
     x: -19.5
