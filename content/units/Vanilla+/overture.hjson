@@ -86,7 +86,7 @@ weapons: [
   {
     name: green-build-weapon
     type: BuildWeapon
-    x: 17
+    x: 16
     y: 9.5
     rotate: true
     rotateSpeed: 7
