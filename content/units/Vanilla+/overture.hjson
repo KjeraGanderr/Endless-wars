@@ -85,7 +85,7 @@ weapons: [
     y: 16
     mirror: false
     rotate: true
-    layerOffset: -1
+    layerOffset: 1
     shootY: 1
     reload: 20
     beamWidth: 0.7
@@ -110,7 +110,7 @@ weapons: [
     rotate: true
     laserColor: "66eaff"
     laserTopColor: "ffffff"
-    layerOffset: -1
+    layerOffset: 1
     shootY: 1
     reload: 20
     beamWidth: 0.7
