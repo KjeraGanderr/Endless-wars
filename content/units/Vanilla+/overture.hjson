@@ -30,7 +30,7 @@ engines: [
     x: 19.5
     y: -11
     radius: 3
-    rotation: 45
+    rotation: -45
   }
   {
     x: -19.5
@@ -86,8 +86,8 @@ weapons: [
   {
     name: green-build-weapon
     type: BuildWeapon
-    x: 12
-    y: 14
+    x: 9
+    y: 18
     rotate: true
     rotateSpeed: 7
     shootY: 1
@@ -98,8 +98,8 @@ weapons: [
   {
     name: erekir-heal-beam
     type: RepairBeamWeapon
-    x: 10
-    y: 20
+    x: 11
+    y: 15
     mirror: false
     rotate: true
     layerOffset: -1
