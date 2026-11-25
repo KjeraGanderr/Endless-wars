@@ -36,7 +36,7 @@ engines: [
     x: -19.5
     y: -11
     radius: 3
-    rotation: 45
+    rotation: -45
   }
 ]
 
@@ -98,8 +98,8 @@ weapons: [
   {
     name: erekir-heal-beam
     type: RepairBeamWeapon
-    x: 11
-    y: 15
+    x: 10
+    y: 20
     mirror: false
     rotate: true
     layerOffset: -1
