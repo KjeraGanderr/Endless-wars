@@ -22,17 +22,18 @@ mineFloor: true
 drawBuildBeam: false
 mineBeamOffset: 19
 itemCapacity: 100
+engineOffset: 4
 engineSize: 4.5
 
 engines: [
   {
-    x: 18
+    x: 19.5
     y: -11
     radius: 2
     rotation: 45
   }
   {
-    x: -18
+    x: -19.5
     y: -11
     radius: 2
     rotation: -45
