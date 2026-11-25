@@ -70,7 +70,7 @@ weapons: [
     name: green-build-weapon
     type: BuildWeapon
     x: 14
-    y: 13.5
+    y: 14.5
     rotate: true
     rotateSpeed: 7
     shootY: 1
