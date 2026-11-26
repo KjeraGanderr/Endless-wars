@@ -80,7 +80,7 @@ weapons: [
 
     hitColor: "65caff"
 
-    chargeEffect: greenLaserCharge
+    chargeEffect: lancerLaserCharge
     shootEffect: lightningShoot
   }
 }
