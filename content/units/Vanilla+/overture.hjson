@@ -1,3 +1,4 @@
+
 name: "Overture"
 description: "A heavy support unit specialized in construction, mining and repair."
 type: flying
@@ -41,48 +42,60 @@ engines: [
 ]
 
 weapons: [
-{
-  name: tesla-beryllium-gun
-  x: 6
-  y: 16.5
-  reload: 60
-  chargeTime: 75
-  rotate: true
-  rotateSpeed: 3
-  shootY: 4
-  mirror: true
-  alternate: false
-  shootCone: 0
-  recoil: 2
-  shake: 3
-  layerOffset: -1
-  chargeEffect: {
-  type: WaveEffect
-  colorFrom: "65caff"
-  colorTo: "ffffff"
-  sizeFrom: 2
-  sizeTo: 9
-  lifetime: 75
-  strokeFrom: 3
-  strokeTo: 0
-}
-  bullet: {
-    type: LightningBulletType
-    damage: 65
-    lightning: 1
-    lightningLength: 24
-    lightningLengthRand: 3
-    lightningDamage: 95
-    lightningColor: "65caff"
-    lightningCone: 5
-    lightningAngle: 0
-    collidesAir: true
-    collidesGround: true
-    collidesTeam: false
-    buildingDamageMultiplier: 0.8
-    maxRange: 180
+  {
+    name: tesla-beryllium-gun
+    x: 6
+    y: 16.5
+    reload: 60
+    rotate: true
+    rotateSpeed: 3
+    shootY: 4
+    mirror: true
+    alternate: false
+    shootCone: 0
+    recoil: 2
+    shake: 3
+    layerOffset: -1
+
+    shoot: {
+      firstShotDelay: 75
+    }
+
+    bullet: {
+      type: LightningBulletType
+      damage: 65
+      lightning: 1
+      lightningLength: 24
+      lightningLengthRand: 3
+      lightningDamage: 95
+      lightningColor: "65caff"
+      lightningCone: 5
+      lightningAngle: 0
+      collidesAir: true
+      collidesGround: true
+      collidesTeam: false
+      buildingDamageMultiplier: 0.8
+      maxRange: 180
+
+      hitColor: "65caff"
+
+      // Charging effect
+      chargeEffect: {
+        type: WaveEffect
+        colorFrom: "65caff"
+        colorTo: "ffffff"
+        sizeFrom: 2
+        sizeTo: 9
+        lifetime: 75
+        strokeFrom: 3
+        strokeTo: 0
+      }
+
+      // Electrical sparks on firing
+      shootEffect: sparkShoot
+    }
   }
-}
+
   {
     name: green-build-weapon
     type: BuildWeapon
