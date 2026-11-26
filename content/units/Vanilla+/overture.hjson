@@ -43,8 +43,6 @@ engines: [
 
 weapons: [
   {
-  
-{
   name: tesla-beryllium-gun
   x: 6
   y: 16.5
