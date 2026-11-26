@@ -43,60 +43,49 @@ engines: [
 
 weapons: [
   {
-    name: tesla-beryllium-gun
-    x: 6
-    y: 16.5
-    reload: 60
-    rotate: true
-    rotateSpeed: 3
-    shootY: 4
-    mirror: true
-    alternate: false
-    shootCone: 0
-    recoil: 2
-    shake: 3
-    layerOffset: -1
-    parentizeEffects: true
-    shoot: {
-      firstShotDelay: 120
-      shootDelay: 75
-    }
-    bullet: {
-      type: LightningBulletType
-      damage: 65
-      lightning: 1
-      lightningLength: 24
-      lightningLengthRand: 3
-      lightningDamage: 95
-      lightningColor: "65caff"
-      lightningCone: 5
-      lightningAngle: 0
-      collidesAir: true
-      collidesGround: true
-      collidesTeam: false
-      buildingDamageMultiplier: 0.8
-      maxRange: 180
+  
+{
+  name: tesla-beryllium-gun
+  x: 6
+  y: 16.5
+  reload: 60
+  rotate: true
+  rotateSpeed: 3
+  shootY: 4
+  mirror: true
+  alternate: false
+  shootCone: 0
+  recoil: 2
+  shake: 3
+  layerOffset: -1
+  parentizeEffects: true
 
-      hitColor: "65caff"
-
-      // Charging effect
-      chargeEffect: {
-        type: WaveEffect
-        rotWithParent: true
-        colorFrom: "65caff"
-        colorTo: "ffffff"
-        sizeFrom: 2
-        sizeTo: 9
-        lifetime: 75
-        strokeFrom: 1
-        strokeTo: 3
-        followParent: true
-      }
-
-      // Electrical sparks on firing
-      shootEffect: sparkShoot
-    }
+  shoot: {
+    firstShotDelay: 80
   }
+
+  bullet: {
+    type: LightningBulletType
+    damage: 65
+    lightning: 1
+    lightningLength: 24
+    lightningLengthRand: 3
+    lightningDamage: 95
+    lightningColor: "65caff"
+    lightningCone: 5
+    lightningAngle: 0
+    collidesAir: true
+    collidesGround: true
+    collidesTeam: false
+    buildingDamageMultiplier: 0.8
+    maxRange: 180
+
+    hitColor: "65caff"
+
+    chargeEffect: greenLaserCharge
+    shootEffect: lightningShoot
+  }
+}
 
   {
     name: green-build-weapon
