@@ -84,13 +84,14 @@ weapons: [
       // Charging effect
       chargeEffect: {
         type: WaveEffect
+        rotWithParent: true
         colorFrom: "65caff"
         colorTo: "ffffff"
         sizeFrom: 2
         sizeTo: 9
         lifetime: 75
-        strokeFrom: 3
-        strokeTo: 0
+        strokeFrom: 0
+        strokeTo: 3
         followParent: true
       }
 
