@@ -112,3 +112,52 @@ if (vela != null && vela.weapons.size > 0) {
 }
 setUnitWeaponDamage(UnitTypes.pulsar, 40.0);
 setUnitWeaponDamage(UnitTypes.quasar, 120.0);
+
+
+
+// ==========================================
+// Mixed Tech Rebalance - Turret Damage
+// ==========================================
+
+function setAmmoDamage(turret, item, damage) {
+    if (turret == null || turret.ammoTypes == null) return;
+
+    const bullet = turret.ammoTypes.get(item);
+    if (bullet == null) return;
+
+    bullet.damage = damage;
+}
+
+function setAmmoSplashDamage(turret, item, damage) {
+    if (turret == null || turret.ammoTypes == null) return;
+
+    const bullet = turret.ammoTypes.get(item);
+    if (bullet == null) return;
+
+    bullet.splashDamage = damage;
+}
+
+// --- Duo ---
+
+setAmmoDamage(Blocks.duo, Items.copper, 18);
+setAmmoDamage(Blocks.duo, Items.graphite, 36);
+setAmmoDamage(Blocks.duo, Items.silicon, 18);
+
+// --- Scatter ---
+// Only splash damage is modified.
+// Direct impact damage remains unchanged.
+
+setAmmoSplashDamage(Blocks.scatter, Items.lead, 60);
+setAmmoSplashDamage(Blocks.scatter, Items.metaglass, 80);
+setAmmoSplashDamage(Blocks.scatter, Items.scrap, 45);
+
+// --- Scorch ---
+
+setAmmoDamage(Blocks.scorch, Items.coal, 34);
+setAmmoDamage(Blocks.scorch, Items.pyratite, 50);
+
+// --- Hail ---
+
+setAmmoDamage(Blocks.hail, Items.graphite, 55);
+setAmmoDamage(Blocks.hail, Items.silicon, 55);
+setAmmoDamage(Blocks.hail, Items.pyratite, 65);
