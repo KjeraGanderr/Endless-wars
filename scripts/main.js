@@ -23,7 +23,6 @@ UnitTypes.mace.health = 1800;
 UnitTypes.fortress.health = 4000;
 UnitTypes.zenith.health = 3100;
 UnitTypes.zenith.armor = 7;
-UnitTypes.risso.health = 750;
 UnitTypes.mono.health = 300;
 UnitTypes.poly.health = 650;
 UnitTypes.mega.health = 1000;
@@ -36,6 +35,12 @@ UnitTypes.spiroct.health = 3000;
 UnitTypes.alpha.health = 400;
 UnitTypes.beta.health = 600;
 UnitTypes.gamma.health = 800;
+UnitTypes.retusa.health = 600;
+UnitTypes.oxynoe.health = 1000;
+UnitTypes.cyerce.health = 3600;
+UnitTypes.risso.health = 750;
+UnitTypes.minke.health = 2100;
+UnitTypes.bryde.health = 5100;
 
 // ==========================================
 // Mixed Tech Rebalance - Unit Damage
