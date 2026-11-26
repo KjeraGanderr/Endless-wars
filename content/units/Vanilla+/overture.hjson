@@ -56,9 +56,11 @@ weapons: [
     recoil: 2
     shake: 3
     layerOffset: -1
+    parentizeEffects: true
 
     shoot: {
-      firstShotDelay: 75
+      firstShotDelay: 120
+      shootDelay: 75
     }
 
     bullet: {
@@ -89,6 +91,7 @@ weapons: [
         lifetime: 75
         strokeFrom: 3
         strokeTo: 0
+        followParent: true
       }
 
       // Electrical sparks on firing
