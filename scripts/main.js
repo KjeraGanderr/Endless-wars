@@ -119,45 +119,156 @@ setUnitWeaponDamage(UnitTypes.quasar, 120.0);
 // Mixed Tech Rebalance - Turret Damage
 // ==========================================
 
-function setAmmoDamage(turret, item, damage) {
+function setAmmoDamage(turret, ammo, damage) {
     if (turret == null || turret.ammoTypes == null) return;
 
-    const bullet = turret.ammoTypes.get(item);
+    const bullet = turret.ammoTypes.get(ammo);
     if (bullet == null) return;
 
     bullet.damage = damage;
 }
 
-function setAmmoSplashDamage(turret, item, damage) {
+function setAmmoSplashDamage(turret, ammo, damage) {
     if (turret == null || turret.ammoTypes == null) return;
 
-    const bullet = turret.ammoTypes.get(item);
+    const bullet = turret.ammoTypes.get(ammo);
     if (bullet == null) return;
 
     bullet.splashDamage = damage;
 }
 
-// --- Duo ---
+function setAmmoFragDamage(turret, ammo, damage) {
+    if (turret == null || turret.ammoTypes == null) return;
 
+    const bullet = turret.ammoTypes.get(ammo);
+    if (bullet == null || bullet.fragBullet == null) return;
+
+    bullet.fragBullet.damage = damage;
+}
+
+// ==========================================
+// Existing custom buffs - preserved
+// ==========================================
+
+// --- Duo ---
 setAmmoDamage(Blocks.duo, Items.copper, 18);
 setAmmoDamage(Blocks.duo, Items.graphite, 36);
 setAmmoDamage(Blocks.duo, Items.silicon, 18);
 
 // --- Scatter ---
-// Only splash damage is modified.
-// Direct impact damage remains unchanged.
-
 setAmmoSplashDamage(Blocks.scatter, Items.lead, 60);
 setAmmoSplashDamage(Blocks.scatter, Items.metaglass, 80);
 setAmmoSplashDamage(Blocks.scatter, Items.scrap, 45);
 
 // --- Scorch ---
-
 setAmmoDamage(Blocks.scorch, Items.coal, 34);
 setAmmoDamage(Blocks.scorch, Items.pyratite, 50);
 
 // --- Hail ---
-
 setAmmoDamage(Blocks.hail, Items.graphite, 55);
 setAmmoDamage(Blocks.hail, Items.silicon, 55);
 setAmmoDamage(Blocks.hail, Items.pyratite, 65);
+
+// ==========================================
+// Salvo
+// ==========================================
+
+setAmmoDamage(Blocks.salvo, Items.copper, 30);
+setAmmoDamage(Blocks.salvo, Items.graphite, 62);
+setAmmoDamage(Blocks.salvo, Items.pyratite, 50);
+setAmmoSplashDamage(Blocks.salvo, Items.pyratite, 30);
+setAmmoDamage(Blocks.salvo, Items.silicon, 46);
+setAmmoDamage(Blocks.salvo, Items.thorium, 56);
+
+// ==========================================
+// Fuse
+// ==========================================
+
+setAmmoDamage(Blocks.fuse, Items.titanium, 132);
+setAmmoDamage(Blocks.fuse, Items.thorium, 210);
+
+// ==========================================
+// Ripple
+// ==========================================
+
+setAmmoDamage(Blocks.ripple, Items.graphite, 80);
+setAmmoSplashDamage(Blocks.ripple, Items.graphite, 140);
+
+setAmmoDamage(Blocks.ripple, Items.silicon, 80);
+setAmmoSplashDamage(Blocks.ripple, Items.silicon, 140);
+
+setAmmoDamage(Blocks.ripple, Items.pyratite, 96);
+setAmmoSplashDamage(Blocks.ripple, Items.pyratite, 180);
+
+setAmmoDamage(Blocks.ripple, Items.blastCompound, 80);
+setAmmoSplashDamage(Blocks.ripple, Items.blastCompound, 180);
+
+setAmmoDamage(Blocks.ripple, Items.plastanium, 80);
+setAmmoSplashDamage(Blocks.ripple, Items.plastanium, 180);
+setAmmoFragDamage(Blocks.ripple, Items.plastanium, 28);
+
+// ==========================================
+// Cyclone
+// ==========================================
+
+setAmmoDamage(Blocks.cyclone, Items.metaglass, 12);
+setAmmoSplashDamage(Blocks.cyclone, Items.metaglass, 90);
+setAmmoFragDamage(Blocks.cyclone, Items.metaglass, 24);
+
+setAmmoDamage(Blocks.cyclone, Items.blastCompound, 16);
+setAmmoSplashDamage(Blocks.cyclone, Items.blastCompound, 90);
+
+setAmmoDamage(Blocks.cyclone, Items.plastanium, 16);
+setAmmoSplashDamage(Blocks.cyclone, Items.plastanium, 75);
+setAmmoFragDamage(Blocks.cyclone, Items.plastanium, 24);
+
+setAmmoDamage(Blocks.cyclone, Items.surgeAlloy, 26);
+setAmmoSplashDamage(Blocks.cyclone, Items.surgeAlloy, 150);
+
+// ==========================================
+// Spectre
+// ==========================================
+
+setAmmoDamage(Blocks.spectre, Items.graphite, 100);
+setAmmoDamage(Blocks.spectre, Items.thorium, 160);
+setAmmoDamage(Blocks.spectre, Items.pyratite, 140);
+setAmmoSplashDamage(Blocks.spectre, Items.pyratite, 40);
+
+// ==========================================
+// Arc and Lancer
+// ==========================================
+
+if (Blocks.arc != null && Blocks.arc.shootType != null) {
+    Blocks.arc.shootType.damage = 24;
+}
+
+if (Blocks.lancer != null && Blocks.lancer.shootType != null) {
+    Blocks.lancer.shootType.damage = 280;
+}
+
+// ==========================================
+// Wave - Liquid Ammo
+// ==========================================
+
+setAmmoDamage(Blocks.wave, Liquids.slag, 8);
+
+// ==========================================
+// Tsunami - Liquid Ammo
+// ==========================================
+
+setAmmoDamage(Blocks.tsunami, Liquids.water, 0.4);
+setAmmoDamage(Blocks.tsunami, Liquids.slag, 9.5);
+setAmmoDamage(Blocks.tsunami, Liquids.cryofluid, 0.4);
+setAmmoDamage(Blocks.tsunami, Liquids.oil, 0.4);
+
+// ==========================================
+// Segment - Point Defense
+// ==========================================
+
+Blocks.segment.bulletDamage = 60;
+
+// ==========================================
+// Parallax - Custom DPS
+// ==========================================
+
+Blocks.parallax.damage = 70 / 60;
