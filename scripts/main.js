@@ -21,6 +21,9 @@ Events.run(Trigger.draw, () => {
 UnitTypes.dagger.health = 650;
 UnitTypes.mace.health = 1800;
 UnitTypes.fortress.health = 4000;
+UnitTypes.flare.health = 150;
+UnitTypes.horizon.health = 410;
+UnitTypes.horizon.armor = 2
 UnitTypes.zenith.health = 3100;
 UnitTypes.zenith.armor = 7;
 UnitTypes.mono.health = 300;
@@ -90,6 +93,14 @@ setUnitWeaponDamage(UnitTypes.atrax, 45.0);
 setUnitWeaponDamageByIndex(UnitTypes.spiroct, 0, 34.5);
 setUnitWeaponDamageByIndex(UnitTypes.spiroct, 1, 27.0);
 
+
+// --- Air Units ---
+
+setUnitWeaponDamage(UnitTypes.flare, 15.0);
+setUnitWeaponDamage(UnitTypes.horizon, 35.0);
+setUnitWeaponDamage(UnitTypes.zenith, 53.0);
+
+
 // --- Core units ---
 
 setUnitWeaponDamage(UnitTypes.alpha, 15.75);
@@ -116,7 +127,7 @@ setUnitWeaponDamage(UnitTypes.quasar, 120.0);
 
 
 // ==========================================
-// Mixed Tech Rebalance - Turret Damage
+// Mixed Tech Rebalance - Turret Damage Functions
 // ==========================================
 
 function setAmmoDamage(turret, ammo, damage) {
@@ -147,7 +158,7 @@ function setAmmoFragDamage(turret, ammo, damage) {
 }
 
 // ==========================================
-// Existing custom buffs - preserved
+// Turrets
 // ==========================================
 
 // --- Duo ---
