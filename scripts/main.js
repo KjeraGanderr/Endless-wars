@@ -97,8 +97,9 @@ setUnitWeaponDamageByIndex(UnitTypes.spiroct, 1, 27.0);
 // --- Air Units ---
 
 setUnitWeaponDamage(UnitTypes.flare, 15.0);
-setUnitWeaponDamage(UnitTypes.horizon, 35.0);
-setUnitWeaponDamage(UnitTypes.zenith, 53.0);
+setUnitWeaponSplashDamage(UnitTypes.horizon, 50.0);
+setUnitWeaponDamage(UnitTypes.zenith, 30.0);
+setUnitWeaponSplashDamage(UnitTypes.zenith, 30.0);
 
 
 // --- Core units ---
